@@ -1,2 +1,3 @@
-# Drone-Project-3D
-3D CAD models, pcb designs, and RF simulation files for a drone-based antenna calibrator.
+## CAD files
+This folder contains STL, dwg, and AutoCAD files for mounting components to the drones (both F450 and T960).
+
