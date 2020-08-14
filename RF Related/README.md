@@ -6,9 +6,10 @@ There should be three circuit boards: for a low-band, mid-band, and a high-band 
 ![lowband_circular](lowband-circular-pol.png)
 
 The BOM (not comprehensive right now, does not contain Mini Circuits components) is attached [here](ShopCart.csv). The box that I have chosen to use to house the PCB is linked [here][hammond_box]. Eagle and Fusion360 
-files soon to follow. This is what the board looks like inside a box (as of now).
-![switch_box](switch-box.png)
+files soon to follow. This is what the boards look like right now (eval and full pol switch).
 
+<img src="switch-box.png" width=400 align=right>
+<img src="switch-eval.png" width=400 align=left>
 
 
 
