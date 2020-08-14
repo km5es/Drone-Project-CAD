@@ -1,6 +1,6 @@
 # Drone-Project-3D
 3D CAD models, pcb designs, and RF simulation files for a drone-based antenna calibrator.
-Here is what the drone's 3D currently looks like (work in progress):
+Here is what the drone's 3D model currently looks like (work in progress):
 
 <img src="drone-3ds.png" width=600 align=center>
 
