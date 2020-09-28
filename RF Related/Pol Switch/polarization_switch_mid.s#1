@@ -12162,8 +12162,8 @@ Source: &lt;a href="https://www.digikey.com/product-detail/en/molex/1718560002/W
 <attribute name="NAME" x="351.155" y="120.904" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="346.329" y="120.904" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="SUPPLY39" gate="GND" x="25.4" y="185.42" smashed="yes" rot="R180">
-<attribute name="VALUE" x="27.305" y="188.595" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY39" gate="GND" x="25.4" y="187.96" smashed="yes" rot="R180">
+<attribute name="VALUE" x="27.305" y="191.135" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY40" gate="GND" x="355.6" y="175.26" smashed="yes">
 <attribute name="VALUE" x="353.695" y="172.085" size="1.778" layer="96"/>
@@ -12384,9 +12384,9 @@ Source: &lt;a href="https://www.digikey.com/product-detail/en/molex/1718560002/W
 <attribute name="NAME" x="393.7" y="196.85" size="1.778" layer="95" rot="R180" align="center-left"/>
 <attribute name="VALUE" x="393.7" y="199.39" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
-<instance part="J2" gate="G$1" x="24.13" y="179.07" smashed="yes" rot="R180">
-<attribute name="NAME" x="20.32" y="171.45" size="1.778" layer="95" rot="R180" align="center-left"/>
-<attribute name="VALUE" x="20.32" y="173.99" size="1.778" layer="96" rot="R180" align="center-left"/>
+<instance part="J2" gate="G$1" x="24.13" y="181.61" smashed="yes" rot="R180">
+<attribute name="NAME" x="20.32" y="173.99" size="1.778" layer="95" rot="R180" align="center-left"/>
+<attribute name="VALUE" x="20.32" y="176.53" size="1.778" layer="96" rot="R180" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -12662,8 +12662,8 @@ Source: &lt;a href="https://www.digikey.com/product-detail/en/molex/1718560002/W
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
 <pinref part="SUPPLY39" gate="GND" pin="GND"/>
-<wire x1="24.13" y1="181.61" x2="25.4" y2="181.61" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="181.61" x2="25.4" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="24.13" y1="184.15" x2="25.4" y2="184.15" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="184.15" x2="25.4" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -12923,8 +12923,7 @@ Source: &lt;a href="https://www.digikey.com/product-detail/en/molex/1718560002/W
 <wire x1="335.28" y1="190.5" x2="340.36" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="177.8" x2="335.28" y2="177.8" width="0.1524" layer="91"/>
 <junction x="335.28" y="177.8"/>
-<wire x1="25.4" y1="180.34" x2="25.4" y2="179.07" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="177.8" x2="25.4" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="180.34" x2="25.4" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="154.94" x2="320.04" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="154.94" x2="320.04" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="190.5" x2="335.28" y2="190.5" width="0.1524" layer="91"/>
@@ -12956,8 +12955,9 @@ Source: &lt;a href="https://www.digikey.com/product-detail/en/molex/1718560002/W
 <pinref part="L1" gate="G$1" pin="1"/>
 <pinref part="L2" gate="G$1" pin="1"/>
 <pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="24.13" y1="179.07" x2="25.4" y2="179.07" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="179.07" x2="25.4" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="24.13" y1="181.61" x2="25.4" y2="181.61" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="181.61" x2="25.4" y2="180.34" width="0.1524" layer="91"/>
+<junction x="25.4" y="180.34"/>
 </segment>
 </net>
 <net name="N$37" class="0">
