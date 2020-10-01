@@ -831,20 +831,22 @@ In this library the device names are the same as the pin names of the symbols, t
 </class>
 </classes>
 <parts>
-<part name="T1" library="ADT1-1WT+" deviceset="ADT1-1WT+" device=""/>
-<part name="T2" library="ADT1-1WT+" deviceset="ADT1-1WT+" device=""/>
+<part name="T1" library="ADT1-1WT+" deviceset="ADT1-1WT+" device="" override_package3d_urn="urn:adsk.eagle:package:23639937/2" override_package_urn="urn:adsk.eagle:footprint:23639938/1"/>
+<part name="T2" library="ADT1-1WT+" deviceset="ADT1-1WT+" device="" override_package3d_urn="urn:adsk.eagle:package:23640011/2" override_package_urn="urn:adsk.eagle:footprint:23640012/1"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
-<part name="X1" library="con-coax_flange_mount_edit" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1"/>
-<part name="X2" library="con-coax_flange_mount_edit" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1"/>
-<part name="X3" library="con-coax_flange_mount_edit" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1"/>
-<part name="X4" library="con-coax_flange_mount_edit" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1"/>
-<part name="X5" library="con-coax_flange_mount_edit" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1"/>
-<part name="X6" library="con-coax_flange_mount_edit" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1"/>
-<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="X1" library="con-coax_flange_mount_edit" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23639941/2" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="X2" library="con-coax_flange_mount_edit" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23639941/2" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
+<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="X3" library="con-coax_flange_mount_edit" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23639941/2" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="X4" library="con-coax_flange_mount_edit" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23639941/2" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="X5" library="con-coax_flange_mount_edit" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23639941/2" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="X6" library="con-coax_flange_mount_edit" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23639941/2" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -870,43 +872,49 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="VALUE" x="83.82" y="119.38" size="1.778" layer="96"/>
 <attribute name="NAME" x="83.82" y="127.762" size="1.778" layer="95"/>
 </instance>
-<instance part="X2" gate="G1" x="175.26" y="129.54" smashed="yes" rot="R180">
-<attribute name="VALUE" x="177.8" y="134.62" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="177.8" y="126.238" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="X3" gate="G1" x="175.26" y="111.76" smashed="yes" rot="R180">
-<attribute name="VALUE" x="177.8" y="116.84" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="177.8" y="108.458" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="X4" gate="G1" x="83.82" y="81.28" smashed="yes">
-<attribute name="VALUE" x="81.28" y="76.2" size="1.778" layer="96"/>
-<attribute name="NAME" x="81.28" y="84.582" size="1.778" layer="95"/>
-</instance>
-<instance part="X5" gate="G1" x="175.26" y="83.82" smashed="yes" rot="R180">
-<attribute name="VALUE" x="177.8" y="88.9" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="177.8" y="80.518" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="X6" gate="G1" x="175.26" y="68.58" smashed="yes" rot="R180">
-<attribute name="VALUE" x="177.8" y="73.66" size="1.778" layer="96" rot="R180"/>
-<attribute name="NAME" x="177.8" y="65.278" size="1.778" layer="95" rot="R180"/>
-</instance>
-<instance part="SUPPLY1" gate="GND" x="86.36" y="76.2" smashed="yes">
-<attribute name="VALUE" x="84.455" y="73.025" size="1.778" layer="96"/>
-</instance>
 <instance part="SUPPLY2" gate="GND" x="88.9" y="119.38" smashed="yes">
 <attribute name="VALUE" x="86.995" y="116.205" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY3" gate="GND" x="172.72" y="88.9" smashed="yes" rot="R180">
-<attribute name="VALUE" x="174.625" y="92.075" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY7" gate="GND" x="99.06" y="116.84" smashed="yes">
+<attribute name="VALUE" x="97.155" y="113.665" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY4" gate="GND" x="172.72" y="134.62" smashed="yes" rot="R180">
-<attribute name="VALUE" x="174.625" y="137.795" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY8" gate="GND" x="99.06" y="73.66" smashed="yes">
+<attribute name="VALUE" x="97.155" y="70.485" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY5" gate="GND" x="172.72" y="116.84" smashed="yes" rot="R180">
-<attribute name="VALUE" x="174.625" y="120.015" size="1.778" layer="96" rot="R180"/>
+<instance part="X2" gate="G1" x="172.72" y="129.54" smashed="yes" rot="R180">
+<attribute name="VALUE" x="175.26" y="134.62" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="175.26" y="126.238" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="SUPPLY6" gate="GND" x="172.72" y="73.66" smashed="yes" rot="R180">
-<attribute name="VALUE" x="174.625" y="76.835" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY1" gate="GND" x="170.18" y="134.62" smashed="yes" rot="R180">
+<attribute name="VALUE" x="172.085" y="137.795" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="X3" gate="G1" x="172.72" y="111.76" smashed="yes" rot="R180">
+<attribute name="VALUE" x="175.26" y="116.84" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="175.26" y="108.458" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="SUPPLY3" gate="GND" x="170.18" y="116.84" smashed="yes" rot="R180">
+<attribute name="VALUE" x="172.085" y="120.015" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="X4" gate="G1" x="86.36" y="81.28" smashed="yes">
+<attribute name="VALUE" x="83.82" y="76.2" size="1.778" layer="96"/>
+<attribute name="NAME" x="83.82" y="84.582" size="1.778" layer="95"/>
+</instance>
+<instance part="SUPPLY4" gate="GND" x="88.9" y="76.2" smashed="yes">
+<attribute name="VALUE" x="86.995" y="73.025" size="1.778" layer="96"/>
+</instance>
+<instance part="X5" gate="G1" x="172.72" y="86.36" smashed="yes" rot="R180">
+<attribute name="VALUE" x="175.26" y="91.44" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="175.26" y="83.058" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="SUPPLY5" gate="GND" x="170.18" y="91.44" smashed="yes" rot="R180">
+<attribute name="VALUE" x="172.085" y="94.615" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="X6" gate="G1" x="172.72" y="66.04" smashed="yes" rot="R180">
+<attribute name="VALUE" x="175.26" y="71.12" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="175.26" y="62.738" size="1.778" layer="95" rot="R180"/>
+</instance>
+<instance part="SUPPLY6" gate="GND" x="170.18" y="71.12" smashed="yes" rot="R180">
+<attribute name="VALUE" x="172.085" y="74.295" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -919,58 +927,33 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="88.9" y1="124.46" x2="99.06" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="T1" gate="G$1" pin="SECONDARY_DOT"/>
-<pinref part="X2" gate="G1" pin="1"/>
-<wire x1="149.86" y1="124.46" x2="172.72" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="124.46" x2="172.72" y2="129.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="X4" gate="G1" pin="1"/>
-<pinref part="T2" gate="G$1" pin="PRIMARY"/>
-<wire x1="86.36" y1="81.28" x2="99.06" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="T1" gate="G$1" pin="SECONDARY"/>
-<wire x1="149.86" y1="119.38" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="119.38" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="X3" gate="G1" pin="1"/>
-<wire x1="167.64" y1="111.76" x2="172.72" y2="111.76" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="T2" gate="G$1" pin="SECONDARY"/>
-<wire x1="149.86" y1="76.2" x2="162.56" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="76.2" x2="162.56" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="X6" gate="G1" pin="1"/>
-<wire x1="162.56" y1="68.58" x2="172.72" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="GND" class="0">
-<segment>
-<pinref part="X4" gate="G1" pin="2"/>
-<pinref part="SUPPLY1" gate="GND" pin="GND"/>
-</segment>
 <segment>
 <pinref part="X1" gate="G1" pin="2"/>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X5" gate="G1" pin="2"/>
-<pinref part="SUPPLY3" gate="GND" pin="GND"/>
+<pinref part="T1" gate="G$1" pin="PRIMARY_DOT"/>
+<pinref part="SUPPLY7" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="T2" gate="G$1" pin="PRIMARY_DOT"/>
+<pinref part="SUPPLY8" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="X2" gate="G1" pin="2"/>
-<pinref part="SUPPLY4" gate="GND" pin="GND"/>
+<pinref part="SUPPLY1" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="X3" gate="G1" pin="2"/>
+<pinref part="SUPPLY3" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="X4" gate="G1" pin="2"/>
+<pinref part="SUPPLY4" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="X5" gate="G1" pin="2"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -978,12 +961,50 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 </segment>
 </net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="X2" gate="G1" pin="1"/>
+<junction x="170.18" y="129.54"/>
+<pinref part="T1" gate="G$1" pin="SECONDARY_DOT"/>
+<wire x1="149.86" y1="124.46" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="124.46" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="X3" gate="G1" pin="1"/>
+<junction x="170.18" y="111.76"/>
+<pinref part="T1" gate="G$1" pin="SECONDARY"/>
+<wire x1="149.86" y1="119.38" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="119.38" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="111.76" x2="167.64" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="T2" gate="G$1" pin="SECONDARY_DOT"/>
-<wire x1="149.86" y1="81.28" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="X4" gate="G1" pin="1"/>
+<junction x="88.9" y="81.28"/>
+<pinref part="T2" gate="G$1" pin="PRIMARY"/>
+<wire x1="88.9" y1="81.28" x2="99.06" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
 <pinref part="X5" gate="G1" pin="1"/>
-<wire x1="172.72" y1="81.28" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
+<junction x="170.18" y="86.36"/>
+<pinref part="T2" gate="G$1" pin="SECONDARY_DOT"/>
+<wire x1="149.86" y1="81.28" x2="170.18" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="81.28" x2="170.18" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="X6" gate="G1" pin="1"/>
+<junction x="170.18" y="66.04"/>
+<wire x1="170.18" y1="66.04" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="T2" gate="G$1" pin="SECONDARY"/>
+<wire x1="149.86" y1="76.2" x2="162.56" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="76.2" x2="162.56" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -1006,6 +1027,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
