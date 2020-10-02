@@ -13,7 +13,7 @@ There should be three circuit boards: for a low-band (60 - 90 MHz), mid-band (12
 
 The BOM (not comprehensive right now, does not contain Mini Circuits components) is attached [here](ShopCart.csv). 
 
-There is also a simpler version of the switch added [here][Switch-Eval/]. This is simply an evaluation board of the [HSWA2-30DR+][switch] switch from Mini Circuits. This will only enable linear-X and linear-Y measurements. The boxes that I have chosen to house the PCBs are linked [here][hammond_box_large] and [here][hammond_box_small]. Fusion360 files soon to follow. This is what the boards look like right now (eval and full pol switch).
+There is also a simpler version of the switch added [here](Switch-Eval/). This is simply an evaluation board of the [HSWA2-30DR+][switch] switch from Mini Circuits. This will only enable linear-X and linear-Y measurements. The boxes that I have chosen to house the PCBs are linked [here][hammond_box_large] and [here][hammond_box_small]. Fusion360 files soon to follow. This is what the boards look like right now (eval and full pol switch).
 
 <img src="switch-box.png" width=400 align=right>
 <img src="switch-eval-in-box.png" width=400 align=left>
