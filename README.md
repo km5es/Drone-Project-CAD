@@ -7,7 +7,7 @@ Two drones have been developed, one with a Flamewheel F450 frame and one with a 
 
 ## Flamewheel F450
 
-This drone was developed as a pre-cursor to the larger drone to experiment with flight paths and serve as a "reference" platform. It utilizes the same avionics and guidance system as PRIAM. Here is a brief description of its construction:
+This drone was developed as a precursor to the larger drone to experiment with flight paths and serve as a "reference" platform. It utilizes the same avionics and guidance system as PRIAM and is thus used to assess RTK performance and positioning accuracy. Here is a brief description of its construction:
 <img src="f450_flying.gif" width=580 align=right>
 * Flamewheel F450 frame,
 * DJI 2312E 960 KV motors,
@@ -45,4 +45,6 @@ The actual experiment will be carried out on a larger drone capable of bearing t
 * GNSS antenna for GPS-based timing.
 
 Complete CAD models and further details are to be found in the [CAD Files](/CAD_Files) folder. That folder also contains drawings and Inventor files for custom parts for both drones. RF simulation and circuit design files of the polarization switch, and baluns are included in the [RF Related](/RF_Related) folder. Details of each are in nested README files. 
+
+>***NOTE:*** Several sub-assemblies and parts in the 3D models have been obtained from [GrabCAD](https://grabcad.com/). None of the work in this repo is towards commercialization or monetary profit. However, credit is due to the creators of those files anyway.
 
