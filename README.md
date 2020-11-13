@@ -56,7 +56,7 @@ Two switches have been designed:
 * A network of RF switches to enable X-, Y- and circular-polarized calibration (right).
 
 <img src="./RF_Related/switch-box.png" width=400 align=right>
-<img src="./RF_Related/switch-eval-in-box.png" width=400 align=left>
+<img src="./RF_Related/switch-eval-in-box.png" width=350 align=left>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 ### Balun
