@@ -8,7 +8,7 @@ Two drones have been developed, one with a Flamewheel F450 frame and one with a 
 ## Flamewheel F450
 
 This drone was developed as a pre-cursor to the larger drone to experiment with flight paths and serve as a "reference" platform. It utilizes the same avionics and guidance system as PRIAM. Here is a brief description of its construction:
-<img src="f450_flying.gif" width=550 align=right>
+<img src="f450_flying.gif" width=600 align=right>
 * Flamewheel F450 frame,
 * DJI 2312E 960 KV motors,
 * DJI 9450 propellers,
@@ -23,8 +23,12 @@ This drone was developed as a pre-cursor to the larger drone to experiment with 
 ## PRIAM (Tarot T960)
 <img src="PRIAM_flying_render.gif" width=800 align=center>
 
-The actual experiment will be carried out on a larger drone capable of bearing the entire payload and an autonomous calibration routine. Here are the hardware specs:
+The actual experiment will be carried out on a larger drone capable of bearing the entire payload. It will be capable of extremely precise magnitude and phase measurements of an antenna-under-test (AUT) using a [custom-developed autonomous calibration routine](https://github.com/km5es/Drone-Project-code). Here are some of its hardware specifications:
+
 * Tarot T960 frame,
+* Hobbywing XRotor 40A-OPTO ESC,
+* Tarot 5008 High Power Brushless Motor (340kv),
+* Tarot 1855 props,
 * 12Ah battery -- about 35-40 mins of endurance expected,
 * 12 kgs of total weight capacity,
 * Retractable landing gear,
@@ -35,10 +39,10 @@ The actual experiment will be carried out on a larger drone capable of bearing t
 * PX4FLOW SONAR and optical flow sensor,
 * Raspberry Pi 4B payload computer,
 * Ettus B205-mini software-defined radio (70 MHz - 6 GHz),
-* Custom RF circuitry: polarization switch (amp + filtering), and balun,
+* Custom RF circuitry: polarization switch (amp + filtering), and dual-pol balun,
 * Dual-polarization, half-wavelength, telescopic, crossed-dipoles (70 MHz - 1 GHz),
 * GNSS-disciplined oscillator (GNSSDO) for frequency and phase coherence,
 * GNSS antenna for GPS-based timing.
 
-Complete CAD models and further details are to be found in the [CAD Files](/CAD\ Files) folder. RF simulation and circuit design files of the polarization switch, and baluns are included in the [RF Related](/RF\ Related) folder. Detils of each are in nested README files. 
+Complete CAD models and further details are to be found in the [CAD Files](/CAD_Files) folder. RF simulation and circuit design files of the polarization switch, and baluns are included in the [RF Related](/RF_Related) folder. Detils of each are in nested README files. 
 

@@ -1,2 +1,0 @@
-# Flamewheel F450
-This folder contains the 3D CAD models and some information of the F450 pre-cursor to the larger drone. The Fusion360 model contains all parts and sub-assemblies for the model which can also be exported in AutoCAD Inventor if needed. All 3D models are as close to the real thing as I could (reasonably) make them.
