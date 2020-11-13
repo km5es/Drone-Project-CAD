@@ -53,12 +53,11 @@ In addition, several RF modules have been designed.
 
 Two switches have been designed:
 * A simple switch to enable X- and Y- polarization calibration (left) and
-* A network of RF switches to enable X-, Y- and circular-polarized calibration (right),
+* A network of RF switches to enable X-, Y- and circular-polarized calibration (right).
 
 <img src="./RF_Related/switch-box.png" width=400 align=right>
 <img src="./RF_Related/switch-eval-in-box.png" width=400 align=left>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
 
 ### Balun
 
