@@ -44,7 +44,33 @@ The actual experiment will be carried out on a larger drone capable of bearing t
 * GNSS-disciplined oscillator (GNSSDO) for frequency and phase coherence,
 * GNSS antenna for GPS-based timing.
 
-Complete CAD models and further details are to be found in the [CAD Files](/CAD_Files) folder. That folder also contains drawings and Inventor files for custom parts for both drones. RF simulation and circuit design files of the polarization switch, and baluns are included in the [RF Related](/RF_Related) folder. Details of each are in nested README files. 
+Complete CAD models and further details are to be found in the [CAD Files](/CAD_Files) folder. That folder also contains drawings and Inventor files for custom parts for both drones. 
+
+In addition, several RF modules have been designed. 
+
+
+### Switch modules
+
+Two switches have been designed:
+* A simple switch to enable X- and Y- polarization calibration (left) and
+* A network of RF switches to enable X-, Y- and circular-polarized calibration (right),
+
+<img src="./RF_Related/switch-box.png" width=400 align=right>
+<img src="./RF_Related/switch-eval-in-box.png" width=400 align=left>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+### Balun
+
+There is also a dual-pol vertically oriented balun included in this repository. 
+
+<img src="./RF_Related/balun-vertical-assembly.gif" width=550 align=right>
+<img src="./RF_Related/balun-vertical.png" width=300 align=right>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br>
+
+
+Microwave Office (MWO), Eagle, and Fusion360 files of these components are included in the [RF Related](/RF_Related) folder. Details of each are in nested README files. 
 
 >***NOTE:*** Several sub-assemblies and parts in the 3D models have been obtained from [GrabCAD](https://grabcad.com/). None of the work in this repo is towards commercialization or monetary profit. However, credit is due to the creators of those files anyway.
 

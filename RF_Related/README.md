@@ -18,21 +18,8 @@ There is also a simpler version of the switch added [here](Switch-Eval/). This i
 <img src="switch-box.png" width=400 align=right>
 <img src="switch-eval-in-box.png" width=400 align=left>
 
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 
 ## Balun
 This folder also contains 3D CAD models and Eagle PCB design files of the dual-pol balun. For now, the current balun candidate is a vertically oriented dual-pol design using two separate PCBs with a 1:1 turns ratio [transformer][trans]. The box I am considering is linked [here][balun-box]. Here is what the current design looks like:
