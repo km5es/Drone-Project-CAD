@@ -25,6 +25,7 @@ This drone was developed as a precursor to the larger drone to experiment with f
 
 The actual experiment will be carried out on a larger drone capable of bearing the entire payload. It will be capable of extremely precise magnitude and phase measurements of an antenna-under-test (AUT) using a [custom-developed autonomous calibration routine](https://github.com/km5es/Drone-Project-code). Here are some of its hardware specifications:
 
+### Drone information
 * Tarot T960 frame,
 * Hobbywing XRotor 40A-OPTO ESC,
 * Tarot 5008 High Power Brushless Motor (340kv),
@@ -36,7 +37,8 @@ The actual experiment will be carried out on a larger drone capable of bearing t
 * Pixhawk 3 Pro flight controller,
 * 3x 915 MHz SiK telemetry (FC x2 + payload computer x1),
 * 2.4 GHz X8R radio,
-* PX4FLOW SONAR and optical flow sensor,
+* PX4FLOW SONAR and optical flow sensor.
+### Payload information
 * Raspberry Pi 4B payload computer,
 * Ettus B205-mini software-defined radio (70 MHz - 6 GHz),
 * Custom RF circuitry: polarization switch (amp + filtering), and dual-pol balun,
@@ -48,8 +50,8 @@ Complete CAD models and further details are to be found in the [CAD Files](/CAD_
 
 In addition, several RF modules have been designed. 
 
-
-### Switch modules
+## RF modules
+### Switches
 
 Two switches have been designed:
 * A simple switch to enable X- and Y- polarization calibration (left) and
