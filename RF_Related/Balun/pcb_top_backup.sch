@@ -776,7 +776,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </classes>
 <parts>
 <part name="T1" library="ADT1-1WT+" deviceset="ADT1-1WT+" device="" override_package3d_urn="urn:adsk.eagle:package:23536383/2" override_package_urn="urn:adsk.eagle:footprint:23536384/1"/>
-<part name="X1" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23536567/2" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
+<part name="X1" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23536567/4" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
 <part name="X2" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23536553/2" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
 <part name="X3" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23536558/2" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>

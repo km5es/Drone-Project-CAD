@@ -72,25 +72,25 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6dmlyZ2luaWE0NDM" projecturn="a.YnVzaW5lc3M6dmlyZ2luaWE0NDMjRDIwMTkxMTA4MjM1OTkyMjUx" f3durn="urn:adsk.wipprod:dm.lineage:O6utifT4R7KIi73m8Qg7iw" pcbguid="07454ef0-fb3b-4397-8935-51fecb7311b8" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="72f1b761-e9aa-45e9-8e6b-75c1aac520b8" lastsyncedrevisionid="72f1b761-e9aa-45e9-8e6b-75c1aac520b8" lastboardhashguid="0b9199b9-ecb3-6892-740d-a6292f549b4e" lastpushedtime="2020-10-04T09:23:25Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6dmlyZ2luaWE0NDM" projecturn="a.YnVzaW5lc3M6dmlyZ2luaWE0NDMjRDIwMTkxMTA4MjM1OTkyMjUx" f3durn="urn:adsk.wipprod:dm.lineage:O6utifT4R7KIi73m8Qg7iw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="9ca6a002-8df1-4a20-a6dc-634fa8dab266" lastsyncedrevisionid="9ca6a002-8df1-4a20-a6dc-634fa8dab266" lastboardhashguid="4cce1eae-81f9-db58-43fe-bfc61bc1fc06" lastpushedtime="2020-12-12T00:28:10Z" linktopcb3d="true"/>
 <plain>
-<text x="1.905" y="17.145" size="1.6764" layer="1" font="vector" ratio="10">km5es
+<text x="1.778" y="16.51" size="1.27" layer="1" font="vector" ratio="15">km5es
 dual-pol balun
 (bottom)</text>
-<wire x1="36.99996875" y1="0.000109375" x2="38.99996875" y2="2.000109375" width="0.001" layer="20" curve="90"/>
-<wire x1="38.99996875" y1="2.000109375" x2="38.99996875" y2="28.00026875" width="0.001" layer="20"/>
-<wire x1="38.99996875" y1="28.00026875" x2="36.99996875" y2="30.00026875" width="0.001" layer="20" curve="90"/>
-<wire x1="36.99996875" y1="30.00026875" x2="24.999709375" y2="30.00026875" width="0.001" layer="20"/>
-<wire x1="24.999709375" y1="30.00026875" x2="24.999709375" y2="24.999890625" width="0.001" layer="20"/>
-<wire x1="24.999709375" y1="24.999890625" x2="21.49981875" y2="24.999890625" width="0.001" layer="20"/>
-<wire x1="21.49981875" y1="24.999890625" x2="21.49981875" y2="19.000059375" width="0.001" layer="20"/>
-<wire x1="21.49981875" y1="19.000059375" x2="19.50018125" y2="19.000059375" width="0.001" layer="20"/>
-<wire x1="19.50018125" y1="19.000059375" x2="19.50018125" y2="24.999890625" width="0.001" layer="20"/>
-<wire x1="19.50018125" y1="24.999890625" x2="2.00003125" y2="24.999890625" width="0.001" layer="20"/>
-<wire x1="2.00003125" y1="24.999890625" x2="0.00003125" y2="22.999890625" width="0.001" layer="20" curve="90"/>
-<wire x1="0.00003125" y1="22.999890625" x2="0.00003125" y2="2.000109375" width="0.001" layer="20"/>
-<wire x1="0.00003125" y1="2.000109375" x2="2.00003125" y2="0.000109375" width="0.001" layer="20" curve="90"/>
-<wire x1="2.00003125" y1="0.000109375" x2="36.99996875" y2="0.000109375" width="0.001" layer="20"/>
+<wire x1="0.00003125" y1="2" x2="2.00003125" y2="0" width="0.001" layer="20" curve="90"/>
+<wire x1="2.00003125" y1="0" x2="36.99996875" y2="0" width="0.001" layer="20"/>
+<wire x1="36.99996875" y1="0" x2="38.99996875" y2="2" width="0.001" layer="20" curve="90"/>
+<wire x1="38.99996875" y1="2" x2="38.99996875" y2="26.40045" width="0.001" layer="20"/>
+<wire x1="38.99996875" y1="26.40045" x2="36.99996875" y2="28.40045" width="0.001" layer="20" curve="90"/>
+<wire x1="36.99996875" y1="28.40045" x2="24.999709375" y2="28.40045" width="0.001" layer="20"/>
+<wire x1="24.999709375" y1="28.40045" x2="24.999709375" y2="23.40008125" width="0.001" layer="20"/>
+<wire x1="24.999709375" y1="23.40008125" x2="21.300059375" y2="23.40008125" width="0.001" layer="20"/>
+<wire x1="21.300059375" y1="23.40008125" x2="21.300059375" y2="17.39991875" width="0.001" layer="20"/>
+<wire x1="21.300059375" y1="17.39991875" x2="19.299940625" y2="17.39991875" width="0.001" layer="20"/>
+<wire x1="19.299940625" y1="17.39991875" x2="19.299940625" y2="23.40008125" width="0.001" layer="20"/>
+<wire x1="19.299940625" y1="23.40008125" x2="2.00003125" y2="23.40008125" width="0.001" layer="20"/>
+<wire x1="2.00003125" y1="23.40008125" x2="0.00003125" y2="21.40008125" width="0.001" layer="20" curve="90"/>
+<wire x1="0.00003125" y1="21.40008125" x2="0.00003125" y2="2" width="0.001" layer="20"/>
 </plain>
 <libraries>
 <library name="ADT1-1WT+">
@@ -240,24 +240,18 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+<designrules name="oshpark-2layer">
+<description language="en">&lt;b&gt;OSH Park Design Rules&lt;/b&gt;
 &lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
-<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+Please make sure your boards conform to these design rules.
+&lt;/p&gt;
 &lt;p&gt;
-The default Design Rules have been set to cover
-a wide range of applications. Your particular design
-may have different requirements, so please make the
-necessary adjustments and save your customized
-design rules under a new name.</description>
+Note, that not all DRC settings must be set by the manufacturer. Several can be adjusted for the design, including those listed on our docs page here. 
+&lt;a href=&quot;http://docs.oshpark.com/design-tools/eagle/design-rules-files/&quot;&gt;Adjustable Settings&lt;/a&gt;
+&lt;/p&gt;</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mtCopper" value="0.035559375mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.035559375mm"/>
+<param name="mtIsolate" value="1.6mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
 <param name="mdWireWire" value="6mil"/>
 <param name="mdWirePad" value="6mil"/>
 <param name="mdWireVia" value="6mil"/>
@@ -267,14 +261,14 @@ design rules under a new name.</description>
 <param name="mdSmdPad" value="6mil"/>
 <param name="mdSmdVia" value="6mil"/>
 <param name="mdSmdSmd" value="6mil"/>
-<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
+<param name="mdCopperDimension" value="15mil"/>
 <param name="mdDrill" value="6mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
-<param name="msDrill" value="0.35mm"/>
-<param name="msMicroVia" value="9.99mm"/>
+<param name="msDrill" value="10mil"/>
+<param name="msMicroVia" value="10mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -283,19 +277,19 @@ design rules under a new name.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMinPadTop" value="5mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMinPadInner" value="5mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMinPadBottom" value="5mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMinViaOuter" value="5mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMinViaInner" value="5mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMinMicroViaOuter" value="5mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMinMicroViaInner" value="5mil"/>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
@@ -304,8 +298,8 @@ design rules under a new name.</description>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="2.5mil"/>
+<param name="mlMaxStopFrame" value="2.5mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="0mil"/>
@@ -436,14 +430,14 @@ design rules under a new name.</description>
 <attribute name="NAME" x="25.4" y="16.88" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="29.21" y="11.8" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="X1" library="con-coax_flange_mount_edit" package="J502-ND-142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23639941/3" override_package_urn="urn:adsk.eagle:footprint:6186/1" value="SMA-142-0701-801/806" x="31.75" y="30.48" smashed="yes" rot="R270">
-<attribute name="MF" value="JOHNSON COMPONENTS" x="31.75" y="52.07" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="MPN" value="142-0701-801" x="31.75" y="52.07" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="NAME" x="22.86" y="22.225" size="1.778" layer="25"/>
-<attribute name="OC_FARNELL" value="1608592" x="31.75" y="52.07" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="90F2624" x="31.75" y="52.07" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="POPULARITY" value="5" x="31.75" y="52.07" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
-<attribute name="VALUE" x="2.54" y="33.02" size="1.778" layer="27"/>
+<element name="X1" library="con-coax_flange_mount_edit" package="J502-ND-142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23639941/7" override_package_urn="urn:adsk.eagle:footprint:6186/1" value="SMA-142-0701-801/806" x="31.75" y="28.3972" smashed="yes" rot="R270">
+<attribute name="MF" value="JOHNSON COMPONENTS" x="31.75" y="49.9872" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="MPN" value="142-0701-801" x="31.75" y="49.9872" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="NAME" x="35.56" y="20.1422" size="1.778" layer="25"/>
+<attribute name="OC_FARNELL" value="1608592" x="31.75" y="49.9872" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="90F2624" x="31.75" y="49.9872" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="5" x="31.75" y="49.9872" size="1.778" layer="27" font="vector" rot="R270" display="off"/>
+<attribute name="VALUE" x="2.54" y="30.9372" size="1.778" layer="27"/>
 </element>
 <element name="X2" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="J502-ND-142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23770642/3" override_package_urn="urn:adsk.eagle:footprint:6186/1" value="SMA-142-0701-801/806" x="31.75" y="0" smashed="yes" rot="R90">
 <attribute name="MF" value="JOHNSON COMPONENTS" x="31.75" y="0" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
@@ -468,8 +462,8 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="X1" pad="1"/>
 <contactref element="T1" pad="1"/>
-<wire x1="31.75" y1="27.9146" x2="31.75" y2="15.24" width="1.524" layer="1"/>
-<wire x1="31.75" y1="15.24" x2="21.59" y2="15.24" width="1.524" layer="1"/>
+<wire x1="21.59" y1="15.24" x2="31.75" y2="15.24" width="1.524" layer="1"/>
+<wire x1="31.75" y1="15.24" x2="31.75" y2="25.8318" width="1.524" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="X1" pad="G@3"/>
@@ -485,8 +479,6 @@ design rules under a new name.</description>
 <vertex x="24.13" y="25.4"/>
 <vertex x="0" y="25.4"/>
 </polygon>
-<via x="11.43" y="15.24" extent="1-16" drill="0.35"/>
-<wire x1="16.51" y1="15.24" x2="11.43" y2="15.24" width="0.1524" layer="1"/>
 <contactref element="X2" pad="G@2"/>
 <contactref element="X2" pad="G@1"/>
 <contactref element="X2" pad="G@4"/>
@@ -508,8 +500,10 @@ design rules under a new name.</description>
 <vertex x="19.05" y="25.4"/>
 <vertex x="0" y="25.4"/>
 </polygon>
-<wire x1="36.1696" y1="27.9146" x2="36.1696" y2="27.9146" width="0" layer="19" extent="1-16"/>
-<wire x1="27.3304" y1="27.9146" x2="27.3304" y2="27.9146" width="0" layer="19" extent="1-16"/>
+<wire x1="16.51" y1="15.24" x2="11.43" y2="15.24" width="0.1524" layer="1"/>
+<via x="11.43" y="15.24" extent="1-16" drill="0.35"/>
+<wire x1="36.1696" y1="25.8318" x2="36.1696" y2="25.8318" width="0" layer="19" extent="1-16"/>
+<wire x1="27.3304" y1="25.8318" x2="27.3304" y2="25.8318" width="0" layer="19" extent="1-16"/>
 <wire x1="36.1696" y1="2.5654" x2="36.1696" y2="2.5654" width="0" layer="19" extent="1-16"/>
 <wire x1="27.3304" y1="2.5654" x2="27.3304" y2="2.5654" width="0" layer="19" extent="1-16"/>
 <wire x1="12.0396" y1="2.5654" x2="12.0396" y2="2.5654" width="0" layer="19" extent="1-16"/>

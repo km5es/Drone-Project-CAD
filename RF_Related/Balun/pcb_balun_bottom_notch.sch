@@ -1409,7 +1409,7 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <parts>
 <part name="T1" library="ADT1-1WT+" deviceset="ADT1-1WT+" device="" override_package3d_urn="urn:adsk.eagle:package:23639937/2" override_package_urn="urn:adsk.eagle:footprint:23639938/1"/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
-<part name="X1" library="con-coax_flange_mount_edit" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23639941/3" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
+<part name="X1" library="con-coax_flange_mount_edit" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23639941/7" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
