@@ -9,4 +9,5 @@ Here is what it currently looks like (September 2020 build, not completely finis
 <img src="20200913_183728.jpg" width=600 align=center>
 
 Here is a video from a previous flight (120m altitude):
-[![](http://img.youtube.com/vi/ozZmQvk_mmk/0.jpg)](http://www.youtube.com/watch?v=ozZmQvk_mmk "T960 maiden flight")
+
+[![watch the video](youtube_screenshot.jpg)](http://www.youtube.com/watch?v=ozZmQvk_mmk "T960 maiden flight")
