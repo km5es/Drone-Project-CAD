@@ -1,17 +1,25 @@
 ﻿Line No.,Newark Part No.,RoHS Compliant?,Your Part No,Notes,Qty,Manufacturer Part Number,Manufacturer Name,Manufacturer / Description,Availability,Unit Price,Line Price,Discount Price
-1,38K5907,RoHS: YES / PHTHALATES: YES,,,10.0,"M20-7830246",HARWIN,"HARWIN  PCB Receptacle, Board-to-Board, 2.54 mm, 2 Rows, 4 Contacts, Through Hole Mount, M20 Series",2892,0.7150,7.15,,
-2,92T9617,RoHS: YES / PHTHALATES: YES,,,40.0,"LMK107B7225KA-T",TAIYO YUDEN,"TAIYO YUDEN  SMD Multilayer Ceramic Capacitor, 2.2 &#181;F, 10 V, 0603 [1608 Metric], &#177; 10%, X7R, M Series",7398,0.1520,6.08,,
-3,06X9806,RoHS: YES / PHTHALATES: YES,,,10.0,"171856-0002",MOLEX,"MOLEX  Pin Header, Wire-to-Board, 2.54 mm, 1 Rows, 2 Contacts, Through Hole Straight, KK 254 171856 Series",37413 Available in quantity shown,0.0790,0.79,,
-4,52K8071,RoHS: Y-EX / PHTHALATES: YES,,,40.0,"CRCW060310M0FKEA",VISHAY,"VISHAY  SMD Chip Resistor, 10 Mohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose",8994,0.0460,1.84,,
-5,29AH7627,RoHS: YES / PHTHALATES: YES,,,10.0,"SN74LVC2G17DBVT",TEXAS INSTRUMENTS,"TEXAS INSTRUMENTS  LOGIC, IS BUFF DL SCHMIT TRIG, 6SOT23",360,0.8740,8.74,,
-6,78Y6656,RoHS: YES / PHTHALATES: YES,,,40.0,"C0603C335K9PACTU",KEMET,"KEMET  CAP, 3.3µF, 6.3V, 10%, X5R, 0603",3969,0.1720,6.88,,
-7,38AC1966,RoHS: YES / PHTHALATES: YES,,,10.0,"MAX8878EUK33+T",MAXIM INTEGRATED PRODUCTS,"MAXIM INTEGRATED PRODUCTS  LDO Voltage Regulator, Fixed, 2.5 V to 6.5 V, 165 mV Dropout, 3.3 V/150 mA out, SOT-23-5",50 Available in quantity shown,1.6000,16.00,,
-8,89R9043,RoHS: Y-EX / PHTHALATES: YES,,,40.0,"NLV32T-100J-PF",TDK,"TDK  High Frequency Inductor, 10 &#181;H, NLV Series, 150 mA, 1210 [3225 Metric], Wirewound, 2.1 ohm",1554,0.1610,6.44,,
-9,75Y0597,RoHS: YES / PHTHALATES: YES,,,40.0,"C0603V102KDRACTU",KEMET,"KEMET  SMD Multilayer Ceramic Capacitor, High Voltage, 1000 pF, 1 kV, 0603 [1608 Metric], &#177; 10%, X7R",363,0.3240,12.96,,
-10,70K9139,RoHS: YES / PHTHALATES: YES,,,40.0,"C0805C106K9PACTU",KEMET,"KEMET  SMD Multilayer Ceramic Capacitor, 10 &#181;F, 6.3 V, 0805 [2012 Metric], &#177; 10%, X5R, C Series KEMET",6632 Available in quantity shown,0.0270,1.08,,
+1,38K5907,RoHS: YES / PHTHALATES: YES,,,10.0,"M20-7830246",HARWIN,"HARWIN  PCB Receptacle, Board-to-Board, 2.54 mm, 2 Rows, 4 Contacts, Through Hole Mount, M20 Series",Directly Shipped,0.7570,7.57,,
+2,92T9617,RoHS: YES / PHTHALATES: YES,,,40.0,"LMK107B7225KA-T",TAIYO YUDEN,"TAIYO YUDEN  SMD Multilayer Ceramic Capacitor, 2.2 &#181;F, 10 V, 0603 [1608 Metric], &#177; 10%, X7R, M Series",7288,0.1520,6.08,,
+3,06X9806,RoHS: YES / PHTHALATES: YES,,,10.0,"171856-0002",MOLEX,"MOLEX  Pin Header, Wire-to-Board, 2.54 mm, 1 Rows, 2 Contacts, Through Hole Straight, KK 254 171856 Series",36400 Available in quantity shown,0.0790,0.79,,
+4,75Y0597,RoHS: YES / PHTHALATES: YES,,,40.0,"C0603V102KDRACTU",KEMET,"KEMET  SMD Multilayer Ceramic Capacitor, High Voltage, 1000 pF, 1 kV, 0603 [1608 Metric], &#177; 10%, X7R",2272 Available in quantity shown,0.0770,3.08,,
+5,70K9139,RoHS: YES / PHTHALATES: YES,,,40.0,"C0805C106K9PACTU",KEMET,"KEMET  SMD Multilayer Ceramic Capacitor, 10 &#181;F, 6.3 V, 0805 [2012 Metric], &#177; 10%, X5R, C Series KEMET",5516 Available in quantity shown,0.0270,1.08,,
+6,29AH7627,RoHS: YES / PHTHALATES: YES,,,10.0,"SN74LVC2G17DBVT",TEXAS INSTRUMENTS,"TEXAS INSTRUMENTS  LOGIC, IS BUFF DL SCHMIT TRIG, 6SOT23",28,2.1000,21.00,,
+7,78Y6656,RoHS: YES / PHTHALATES: YES,,,40.0,"C0603C335K9PACTU",KEMET,"KEMET  CAP, 3.3µF, 6.3V, 10%, X5R, 0603",1289,0.1670,6.68,,
+8,38AC1966,RoHS: YES / PHTHALATES: YES,,,10.0,"MAX8878EUK33+T",MAXIM INTEGRATED PRODUCTS,"MAXIM INTEGRATED PRODUCTS  LDO Voltage Regulator, Fixed, 2.5 V to 6.5 V, 165 mV Dropout, 3.3 V/150 mA out, SOT-23-5",50 Available in quantity shown,1.7800,17.80,,
+9,68AC4495,RoHS: YES / PHTHALATES: YES,,,40.0,"CGA3E1C0G2A103J080AC",TDK,"TDK  CAP, 0.01µF, 100V, 5%, C0G/NP0, 0603",3575,0.0710,2.84,,
+10,65AC3375,RoHS: Y-EX / PHTHALATES: YES,,,40.0,"CRCW060310K0JNEAHP",VISHAY,"VISHAY  SMD Chip Resistor, 10 kohm, ± 5%, 330 mW, 0603 [1608 Metric], Thick Film, Pulse Proof, High Power",3780,0.0200,0.80,,
+11,55Y0263,RoHS: YES / PHTHALATES: YES,,,20.0,"7447649115",WURTH ELEKTRONIK,"WURTH ELEKTRONIK  Surface Mount High Frequency Inductor, WE-GFH Series, 15 H, 10%, 1210 [3225 Metric], 34 MHz RoHS Compliant: Yes",103,0.3850,7.70,,
+12,22J0694,RoHS: YES / PHTHALATES: TBA,,,13.0,"VLPR-24-858-2",BIVAR,"BIVAR  Light Pipe, Vertical, 0.858 "", 1 Pipes, Rectangular, PC Board, Transparent",13 Available in quantity shown,0.1390,1.81,,
+13,65AC3369,RoHS: Y-EX / PHTHALATES: YES,,,40.0,"CRCW06031M00FKEAHP",VISHAY,"VISHAY  SMD Chip Resistor, 1 Mohm, ± 1%, 330 mW, 0603 [1608 Metric], Thick Film, Pulse Proof, High Power",1706,0.1330,5.32,,
+14,18J2659,RoHS: YES / PHTHALATES: YES,,,40.0,"EMK107BJ105KA-T",TAIYO YUDEN,"TAIYO YUDEN  SMD Multilayer Ceramic Capacitor, 1 &#181;F, 16 V, 0603 [1608 Metric], &#177; 10%, X5R, M Series",3436,0.0090,0.36,,
+15,96K4755,RoHS: YES / PHTHALATES: YES,,,40.0,"06031A101JAT2A",AVX,"AVX  SMD Multilayer Ceramic Capacitor, 100 pF, 100 V, 0603 [1608 Metric], &#177; 5%, C0G / NP0",8357,0.0070,0.28,,
+16,73AH7193,RoHS: YES / PHTHALATES: YES,,,40.0,"RCC060310M0FKEA",VISHAY,"VISHAY  SMD Chip Resistor, 10 Mohm, ± 1%, 200 mW, 0603 [1608 Metric], Thick Film, Medium Power",5000,0.1050,4.20,,
+17,89M6778,RoHS: Y-EX / PHTHALATES: YES,,,40.0,"CRCW060350R0FKEA",VISHAY,"VISHAY  SMD Chip Resistor, 50 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose",655728,0.0040,0.16,,
+18,52K8528,RoHS: Y-EX / PHTHALATES: YES,,,40.0,"CRCW0603430RFKEA",VISHAY,"VISHAY  SMD Chip Resistor, 430 ohm, ± 1%, 100 mW, 0603 [1608 Metric], Thick Film, General Purpose",9825,0.0030,0.12,,
 
-,,,,,,,Sub Total,67.96
-,,,,,,,Merchandise Total,67.96
+,,,,,,,Sub Total,87.67
+,,,,,,,Merchandise Total,87.67
 ,,,,,,,Shipping,0.00
 ,,,,,,,Tax,Unknown
-,,,,,,,Total,67.96
+,,,,,,,Total,87.67

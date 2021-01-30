@@ -72,25 +72,23 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6dmlyZ2luaWE0NDM" projecturn="a.YnVzaW5lc3M6dmlyZ2luaWE0NDMjRDIwMTkxMTA4MjM1OTkyMjUx" f3durn="urn:adsk.wipprod:dm.lineage:O6utifT4R7KIi73m8Qg7iw" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="9ca6a002-8df1-4a20-a6dc-634fa8dab266" lastsyncedrevisionid="9ca6a002-8df1-4a20-a6dc-634fa8dab266" lastboardhashguid="4cce1eae-81f9-db58-43fe-bfc61bc1fc06" lastpushedtime="2020-12-12T00:28:10Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6dmlyZ2luaWE0NDM" projecturn="a.YnVzaW5lc3M6dmlyZ2luaWE0NDMjRDIwMTkxMTA4MjM1OTkyMjUx" f3durn="urn:adsk.wipprod:dm.lineage:Nh57mWnyS0iSAjcLrkNg4A" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="84773c8b-cd61-4200-88c0-bcf7644c2410" lastsyncedrevisionid="84773c8b-cd61-4200-88c0-bcf7644c2410" lastboardhashguid="04087f70-35e4-7a5b-568c-5471a457fe5a" lastpushedtime="2020-12-11T03:13:35Z" linktopcb3d="true"/>
 <plain>
-<text x="1.778" y="16.51" size="1.27" layer="25" font="vector" ratio="15">km5es
+<text x="1.905" y="17.145" size="1.6764" layer="25" font="vector" ratio="10">km5es
 dual-pol balun
-(bottom)</text>
-<wire x1="0.00003125" y1="2" x2="2.00003125" y2="0" width="0.001" layer="20" curve="90"/>
-<wire x1="2.00003125" y1="0" x2="36.99996875" y2="0" width="0.001" layer="20"/>
-<wire x1="36.99996875" y1="0" x2="38.99996875" y2="2" width="0.001" layer="20" curve="90"/>
-<wire x1="38.99996875" y1="2" x2="38.99996875" y2="26.40045" width="0.001" layer="20"/>
-<wire x1="38.99996875" y1="26.40045" x2="36.99996875" y2="28.40045" width="0.001" layer="20" curve="90"/>
-<wire x1="36.99996875" y1="28.40045" x2="24.999709375" y2="28.40045" width="0.001" layer="20"/>
-<wire x1="24.999709375" y1="28.40045" x2="24.999709375" y2="23.40008125" width="0.001" layer="20"/>
-<wire x1="24.999709375" y1="23.40008125" x2="21.300059375" y2="23.40008125" width="0.001" layer="20"/>
-<wire x1="21.300059375" y1="23.40008125" x2="21.300059375" y2="17.39991875" width="0.001" layer="20"/>
-<wire x1="21.300059375" y1="17.39991875" x2="19.299940625" y2="17.39991875" width="0.001" layer="20"/>
-<wire x1="19.299940625" y1="17.39991875" x2="19.299940625" y2="23.40008125" width="0.001" layer="20"/>
-<wire x1="19.299940625" y1="23.40008125" x2="2.00003125" y2="23.40008125" width="0.001" layer="20"/>
-<wire x1="2.00003125" y1="23.40008125" x2="0.00003125" y2="21.40008125" width="0.001" layer="20" curve="90"/>
-<wire x1="0.00003125" y1="21.40008125" x2="0.00003125" y2="2" width="0.001" layer="20"/>
+(top)</text>
+<wire x1="2.00013125" y1="28.4" x2="0.00013125" y2="26.4" width="0.001" layer="20" curve="90"/>
+<wire x1="0.00013125" y1="26.4" x2="0.00013125" y2="2.000409375" width="0.001" layer="20"/>
+<wire x1="0.00013125" y1="2.000409375" x2="2.00013125" y2="0.000409375" width="0.001" layer="20" curve="90"/>
+<wire x1="2.00013125" y1="0.000409375" x2="14.00006875" y2="0.000409375" width="0.001" layer="20"/>
+<wire x1="14.00006875" y1="0.000409375" x2="14.00006875" y2="5.00011875" width="0.001" layer="20"/>
+<wire x1="14.00006875" y1="5.00011875" x2="24.999509375" y2="5.00011875" width="0.001" layer="20"/>
+<wire x1="24.999509375" y1="5.00011875" x2="24.999509375" y2="0.000409375" width="0.001" layer="20"/>
+<wire x1="24.999509375" y1="0.000409375" x2="36.99986875" y2="0.000409375" width="0.001" layer="20"/>
+<wire x1="36.99986875" y1="0.000409375" x2="38.99986875" y2="2.000409375" width="0.001" layer="20" curve="90"/>
+<wire x1="38.99986875" y1="2.000409375" x2="38.99986875" y2="26.4" width="0.001" layer="20"/>
+<wire x1="38.99986875" y1="26.4" x2="36.99986875" y2="28.4" width="0.001" layer="20" curve="90"/>
+<wire x1="36.99986875" y1="28.4" x2="2.00013125" y2="28.4" width="0.001" layer="20"/>
 </plain>
 <libraries>
 <library name="ADT1-1WT+">
@@ -130,7 +128,7 @@ dual-pol balun
 Radiall  and M/A COM.&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="J502-ND-142-0711-821/826" urn="urn:adsk.eagle:footprint:6190/1" library_version="2">
+<package name="J502-ND-142-0701-801/806" urn="urn:adsk.eagle:footprint:6186/1" library_version="2">
 <description>&lt;b&gt;SMA 50 Ohm&lt;/b&gt; Board Thickness &lt;b&gt;0.062&lt;/b&gt; Inch, End Launch Jack Receptacle&lt;p&gt;
 Johnson Components&lt;br&gt;
 Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
@@ -148,32 +146,32 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <wire x1="-4.45" y1="2.75" x2="-3.7" y2="2" width="0.2032" layer="21"/>
 <wire x1="-3.7" y1="2" x2="-1.55" y2="2" width="0.2032" layer="21"/>
 <wire x1="-1.55" y1="2" x2="-1.55" y2="4.65" width="0.2032" layer="21"/>
-<wire x1="-1.55" y1="4.65" x2="4.1" y2="4.65" width="0.2032" layer="51"/>
-<wire x1="4.1" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="51"/>
-<wire x1="4.1" y1="-4.65" x2="4.1" y2="-3.85" width="0.2032" layer="51"/>
-<wire x1="4.1" y1="-3.85" x2="-0.1" y2="-3.85" width="0.2032" layer="51"/>
+<wire x1="-1.55" y1="4.65" x2="4.65" y2="4.65" width="0.2032" layer="51"/>
+<wire x1="4.65" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="51"/>
+<wire x1="4.65" y1="-4.65" x2="4.65" y2="-3.85" width="0.2032" layer="51"/>
+<wire x1="4.65" y1="-3.85" x2="-0.1" y2="-3.85" width="0.2032" layer="51"/>
 <wire x1="-0.1" y1="-3.85" x2="-0.1" y2="3.85" width="0.2032" layer="21"/>
-<wire x1="-0.1" y1="3.85" x2="4.1" y2="3.85" width="0.2032" layer="51"/>
-<wire x1="4.1" y1="3.85" x2="4.1" y2="4.65" width="0.2032" layer="51"/>
+<wire x1="-0.1" y1="3.85" x2="4.65" y2="3.85" width="0.2032" layer="51"/>
+<wire x1="4.65" y1="3.85" x2="4.65" y2="4.65" width="0.2032" layer="51"/>
 <wire x1="-1.55" y1="4.65" x2="-0.1" y2="4.65" width="0.2032" layer="21"/>
 <wire x1="-0.1" y1="-4.65" x2="-1.55" y2="-4.65" width="0.2032" layer="21"/>
-<smd name="1" x="2.1154" y="0" dx="4.191" dy="1.778" layer="1"/>
-<smd name="G@1" x="2.1154" y="3.4946" dx="4.191" dy="2.667" layer="1"/>
-<smd name="G@2" x="2.1154" y="-3.4946" dx="4.191" dy="2.667" layer="1"/>
-<smd name="G@4" x="2.1154" y="-3.4946" dx="4.191" dy="2.667" layer="16"/>
-<smd name="G@3" x="2.1154" y="3.4946" dx="4.191" dy="2.667" layer="16"/>
+<smd name="1" x="2.5654" y="0" dx="5.08" dy="2.286" layer="1"/>
+<smd name="G@1" x="2.5654" y="4.4196" dx="5.08" dy="2.286" layer="1"/>
+<smd name="G@2" x="2.5654" y="-4.4196" dx="5.08" dy="2.286" layer="1"/>
+<smd name="G@4" x="2.5654" y="-4.4196" dx="5.08" dy="2.286" layer="16"/>
+<smd name="G@3" x="2.5654" y="4.4196" dx="5.08" dy="2.286" layer="16"/>
 <text x="0.635" y="6.35" size="1.778" layer="25">&gt;NAME</text>
 <text x="1.27" y="-8.89" size="1.778" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.025" y1="-0.5" x2="4.05" y2="0.5" layer="51"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="J502-ND-142-0711-821/826" urn="urn:adsk.eagle:package:6224/1" type="box" library_version="2">
+<package3d name="J502-ND-142-0701-801/806" urn="urn:adsk.eagle:package:6214/1" type="box" library_version="2">
 <description>SMA 50 Ohm Board Thickness 0.062 Inch, End Launch Jack Receptacle
 Johnson Components
 Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <packageinstances>
-<packageinstance name="J502-ND-142-0711-821/826"/>
+<packageinstance name="J502-ND-142-0701-801/806"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -365,108 +363,99 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </pass>
 </autorouter>
 <elements>
-<element name="T1" library="ADT1-1WT+" package="ADT11WT" override_package3d_urn="urn:adsk.eagle:package:23639937/2" override_package_urn="urn:adsk.eagle:footprint:23639938/1" value="ADT1-1WT+" x="19.05" y="12.7" smashed="yes" rot="R180">
-<attribute name="ARROW_PART_NUMBER" value="ADT1-1WT+" x="69.85" y="-95.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="" x="69.85" y="-95.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="RF Transformer" x="69.85" y="-95.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="2.84mm" x="69.85" y="-95.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Mini-Circuits" x="69.85" y="-95.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="ADT1-1WT+" x="69.85" y="-95.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="139-ADT1-1WT" x="69.85" y="-95.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Mini-Circuits/ADT1-1WT%2b?qs=xZ%2FP%252Ba9zWqYbLxnb6qhNYw%3D%3D" x="69.85" y="-95.25" size="1.778" layer="27" font="vector" rot="R180" display="off"/>
-<attribute name="NAME" x="25.4" y="16.88" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="29.21" y="11.8" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="T1" library="ADT1-1WT+" package="ADT11WT" override_package3d_urn="urn:adsk.eagle:package:23536383/2" override_package_urn="urn:adsk.eagle:footprint:23536384/1" value="ADT1-1WT+" x="19.05" y="12.7" smashed="yes" rot="R180">
+<attribute name="ARROW_PART_NUMBER" value="ADT1-1WT+" x="0" y="76.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="" x="0" y="76.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="RF Transformer" x="0" y="76.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="2.84mm" x="0" y="76.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Mini-Circuits" x="0" y="76.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ADT1-1WT+" x="0" y="76.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="139-ADT1-1WT" x="0" y="76.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Mini-Circuits/ADT1-1WT%2b?qs=xZ%2FP%252Ba9zWqYbLxnb6qhNYw%3D%3D" x="0" y="76.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="25.4" y="17.515" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="29.21" y="13.07" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="X1" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="J502-ND-142-0711-821/826" package3d_urn="urn:adsk.eagle:package:6224/1" override_package3d_urn="urn:adsk.eagle:package:26491994/2" override_package_urn="urn:adsk.eagle:footprint:6190/1" value="SMA-142-0711-821/826" x="31.75" y="28.448" smashed="yes" rot="R270">
-<attribute name="MF" value="JOHNSON COMPONENTS" x="31.75" y="28.448" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="142-0711-821" x="31.75" y="28.448" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="35.56" y="21.463" size="1.778" layer="25"/>
-<attribute name="OC_FARNELL" value="1019328" x="31.75" y="28.448" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="16F3627" x="31.75" y="28.448" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="POPULARITY" value="0" x="31.75" y="28.448" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="0" y="29.718" size="1.778" layer="27"/>
+<element name="X1" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="J502-ND-142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23536567/4" override_package_urn="urn:adsk.eagle:footprint:6186/1" value="SMA-142-0701-801/806" x="31.75" y="28.4226" smashed="yes" rot="R270">
+<attribute name="MF" value="JOHNSON COMPONENTS" x="21.59" y="-13.4874" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="142-0701-801" x="21.59" y="-13.4874" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="21.59" y="23.9776" size="1.778" layer="25"/>
+<attribute name="OC_FARNELL" value="1608592" x="21.59" y="-13.4874" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="90F2624" x="21.59" y="-13.4874" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="POPULARITY" value="5" x="21.59" y="-13.4874" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="34.925" y="30.3276" size="1.778" layer="27"/>
 </element>
-<element name="X3" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="J502-ND-142-0711-821/826" package3d_urn="urn:adsk.eagle:package:6224/1" override_package3d_urn="urn:adsk.eagle:package:26491998/2" override_package_urn="urn:adsk.eagle:footprint:6190/1" value="SMA-142-0711-821/826" x="31.75" y="0" smashed="yes" rot="R90">
-<attribute name="MF" value="JOHNSON COMPONENTS" x="31.75" y="0" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="142-0711-821" x="31.75" y="0" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="38.1" y="6.985" size="1.778" layer="25" rot="R180"/>
-<attribute name="OC_FARNELL" value="1019328" x="31.75" y="0" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="16F3627" x="31.75" y="0" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULARITY" value="0" x="31.75" y="0" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="60.96" y="-2.54" size="1.778" layer="27" rot="R180"/>
+<element name="X2" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="J502-ND-142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23536553/2" override_package_urn="urn:adsk.eagle:footprint:6186/1" value="SMA-142-0701-801/806" x="31.75" y="0" smashed="yes" rot="R90">
+<attribute name="MF" value="JOHNSON COMPONENTS" x="60.96" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="142-0701-801" x="60.96" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="38.1" y="8.255" size="1.778" layer="25" rot="R180"/>
+<attribute name="OC_FARNELL" value="1608592" x="60.96" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="90F2624" x="60.96" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="5" x="60.96" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="61.595" y="-2.54" size="1.778" layer="27" rot="R180"/>
 </element>
-<element name="X2" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="J502-ND-142-0711-821/826" package3d_urn="urn:adsk.eagle:package:6224/1" override_package3d_urn="urn:adsk.eagle:package:26491998/2" override_package_urn="urn:adsk.eagle:footprint:6190/1" value="SMA-142-0711-821/826" x="7.62" y="0" smashed="yes" rot="R90">
-<attribute name="MF" value="JOHNSON COMPONENTS" x="7.62" y="0" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="142-0711-821" x="7.62" y="0" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="3.81" y="6.985" size="1.778" layer="25" rot="R180"/>
-<attribute name="OC_FARNELL" value="1019328" x="7.62" y="0" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="OC_NEWARK" value="16F3627" x="7.62" y="0" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POPULARITY" value="0" x="7.62" y="0" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="3.81" y="-2.54" size="1.778" layer="27" rot="R180"/>
+<element name="X3" library="con-coax" library_urn="urn:adsk.eagle:library:133" package="J502-ND-142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23536558/2" override_package_urn="urn:adsk.eagle:footprint:6186/1" value="SMA-142-0701-801/806" x="7.62" y="0" smashed="yes" rot="R90">
+<attribute name="MF" value="JOHNSON COMPONENTS" x="55.88" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="142-0701-801" x="55.88" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="3.81" y="7.62" size="1.778" layer="25" rot="R180"/>
+<attribute name="OC_FARNELL" value="1608592" x="55.88" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="OC_NEWARK" value="90F2624" x="55.88" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="POPULARITY" value="5" x="55.88" y="41.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="4.445" y="-2.54" size="1.778" layer="27" rot="R180"/>
 </element>
 </elements>
 <signals>
-<signal name="N$1">
-<contactref element="T1" pad="1"/>
-<wire x1="31.75" y1="15.24" x2="21.59" y2="15.24" width="1.524" layer="1"/>
-<contactref element="X1" pad="1"/>
-<wire x1="31.75" y1="26.3326" x2="31.75" y2="15.24" width="1.524" layer="1"/>
-</signal>
 <signal name="GND">
 <contactref element="T1" pad="3"/>
-<polygon width="0.1524" layer="16">
-<vertex x="0" y="0"/>
-<vertex x="39.37" y="0"/>
-<vertex x="39.37" y="30.48"/>
-<vertex x="24.13" y="30.48"/>
-<vertex x="24.13" y="25.4"/>
-<vertex x="0" y="25.4"/>
-</polygon>
-<polygon width="0.1524" layer="16">
-<vertex x="0" y="0"/>
-<vertex x="39.37" y="0"/>
-<vertex x="39.37" y="30.48"/>
-<vertex x="25.4" y="30.48"/>
-<vertex x="25.4" y="25.4"/>
-<vertex x="20.32" y="25.4"/>
-<vertex x="20.32" y="19.05"/>
-<vertex x="19.05" y="19.05"/>
-<vertex x="19.05" y="24.13"/>
-<vertex x="19.05" y="25.4"/>
-<vertex x="0" y="25.4"/>
-</polygon>
-<wire x1="16.51" y1="15.24" x2="11.43" y2="15.24" width="0.1524" layer="1"/>
-<via x="11.43" y="15.24" extent="1-16" drill="0.35"/>
-<contactref element="X1" pad="G@4"/>
-<contactref element="X1" pad="G@1"/>
-<contactref element="X1" pad="G@2"/>
-<contactref element="X1" pad="G@3"/>
-<contactref element="X3" pad="G@4"/>
 <contactref element="X3" pad="G@1"/>
 <contactref element="X3" pad="G@2"/>
 <contactref element="X3" pad="G@3"/>
-<contactref element="X2" pad="G@4"/>
+<contactref element="X3" pad="G@4"/>
 <contactref element="X2" pad="G@1"/>
 <contactref element="X2" pad="G@2"/>
 <contactref element="X2" pad="G@3"/>
-<wire x1="35.2446" y1="26.3326" x2="35.2446" y2="26.3326" width="0" layer="19" extent="1-16"/>
-<wire x1="28.2554" y1="26.3326" x2="28.2554" y2="26.3326" width="0" layer="19" extent="1-16"/>
-<wire x1="35.2446" y1="2.1154" x2="35.2446" y2="2.1154" width="0" layer="19" extent="1-16"/>
-<wire x1="28.2554" y1="2.1154" x2="28.2554" y2="2.1154" width="0" layer="19" extent="1-16"/>
-<wire x1="11.1146" y1="2.1154" x2="11.1146" y2="2.1154" width="0" layer="19" extent="1-16"/>
-<wire x1="4.1254" y1="2.1154" x2="4.1254" y2="2.1154" width="0" layer="19" extent="1-16"/>
+<contactref element="X2" pad="G@4"/>
+<contactref element="X1" pad="G@1"/>
+<contactref element="X1" pad="G@2"/>
+<contactref element="X1" pad="G@3"/>
+<contactref element="X1" pad="G@4"/>
+<polygon width="0.001" layer="16">
+<vertex x="0" y="0"/>
+<vertex x="0" y="29.21"/>
+<vertex x="38.735" y="29.21"/>
+<vertex x="39.37" y="28.575"/>
+<vertex x="39.37" y="0"/>
+<vertex x="24.765" y="0"/>
+<vertex x="24.765" y="5.08"/>
+<vertex x="13.97" y="5.08"/>
+<vertex x="13.97" y="0"/>
+</polygon>
+<via x="12.065" y="15.24" extent="1-16" drill="0.35"/>
+<wire x1="16.51" y1="15.24" x2="12.065" y2="15.24" width="0.1524" layer="1"/>
+<wire x1="36.1696" y1="25.8572" x2="36.1696" y2="25.8572" width="0" layer="19" extent="1-16"/>
+<wire x1="27.3304" y1="25.8572" x2="27.3304" y2="25.8572" width="0" layer="19" extent="1-16"/>
+<wire x1="36.1696" y1="2.5654" x2="36.1696" y2="2.5654" width="0" layer="19" extent="1-16"/>
+<wire x1="27.3304" y1="2.5654" x2="27.3304" y2="2.5654" width="0" layer="19" extent="1-16"/>
+<wire x1="12.0396" y1="2.5654" x2="12.0396" y2="2.5654" width="0" layer="19" extent="1-16"/>
+<wire x1="3.2004" y1="2.5654" x2="3.2004" y2="2.5654" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$1">
+<contactref element="X1" pad="1"/>
+<contactref element="T1" pad="1"/>
+<wire x1="31.75" y1="15.24" x2="21.59" y2="15.24" width="1.524" layer="1"/>
+<wire x1="31.75" y1="15.24" x2="31.75" y2="25.8572" width="1.524" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="T1" pad="6"/>
-<wire x1="31.75" y1="10.16" x2="21.59" y2="10.16" width="1.524" layer="1"/>
-<contactref element="X3" pad="1"/>
-<wire x1="31.75" y1="2.1154" x2="31.75" y2="10.16" width="1.524" layer="1"/>
+<contactref element="X2" pad="1"/>
+<wire x1="21.59" y1="10.16" x2="31.75" y2="10.16" width="1.524" layer="1"/>
+<wire x1="31.75" y1="10.16" x2="31.75" y2="3.175" width="1.524" layer="1"/>
+<wire x1="31.75" y1="3.175" x2="31.75" y2="2.5654" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
+<contactref element="X3" pad="1"/>
 <contactref element="T1" pad="4"/>
+<wire x1="7.62" y1="2.5654" x2="7.62" y2="10.16" width="1.524" layer="1"/>
 <wire x1="7.62" y1="10.16" x2="16.51" y2="10.16" width="1.524" layer="1"/>
-<contactref element="X2" pad="1"/>
-<wire x1="7.62" y1="2.1154" x2="7.62" y2="10.16" width="1.524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

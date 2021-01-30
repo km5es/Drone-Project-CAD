@@ -2435,17 +2435,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7922884P" x="26.035" y="33.02" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="15.24" y="39.37" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="LED3" library="APT2012LVBC_D" package="LEDC2012X85N" value="APT2012LVBC_D" x="76.454" y="26.416" smashed="yes" rot="R180">
-<attribute name="ARROW_PART_NUMBER" value="APT2012LVBC/D" x="76.454" y="26.416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/apt2012lvbcd/kingbright" x="76.454" y="26.416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="Standard LEDs - SMD 2.0X1.2MM LOW CRNT" x="76.454" y="26.416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.85mm" x="76.454" y="26.416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Kingbright" x="76.454" y="26.416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="APT2012LVBC/D" x="76.454" y="26.416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="604-APT2012LVBCD" x="76.454" y="26.416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT2012LVBC-D?qs=6oMev5NRZMGErJYT6KZLXg%3D%3D" x="76.454" y="26.416" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="81.534" y="26.162" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="78.994" y="31.242" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="LED3" library="APT2012LVBC_D" package="LEDC2012X85N" value="APT2012LVBC_D" x="76.454" y="26.416" smashed="yes">
+<attribute name="ARROW_PART_NUMBER" value="APT2012LVBC/D" x="76.454" y="26.416" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/apt2012lvbcd/kingbright" x="76.454" y="26.416" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 2.0X1.2MM LOW CRNT" x="76.454" y="26.416" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.85mm" x="76.454" y="26.416" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" x="76.454" y="26.416" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT2012LVBC/D" x="76.454" y="26.416" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT2012LVBCD" x="76.454" y="26.416" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT2012LVBC-D?qs=6oMev5NRZMGErJYT6KZLXg%3D%3D" x="76.454" y="26.416" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="82.042" y="26.162" size="1.27" layer="25" align="center"/>
+<attribute name="VALUE" x="78.994" y="30.988" size="1.27" layer="27" align="center"/>
 </element>
 </elements>
 <signals>
@@ -3004,8 +3004,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="74.8284" y1="49.53" x2="72.9996" y2="51.3588" width="0.1524" layer="1"/>
 <wire x1="74.8284" y1="49.53" x2="74.93" y2="49.53" width="0.1524" layer="1"/>
 <contactref element="LED3" pad="1"/>
-<wire x1="77.404" y1="26.416" x2="80.01" y2="26.416" width="0.1524" layer="1"/>
-<via x="80.01" y="26.416" extent="1-16" drill="0.35"/>
+<wire x1="13.97" y1="8.89" x2="75.504" y2="26.416" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="IC3" pad="8"/>
@@ -3572,8 +3571,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$3">
 <contactref element="R2" pad="2"/>
 <contactref element="LED3" pad="2"/>
-<wire x1="71.97" y1="26.67" x2="75.25" y2="26.67" width="0.1524" layer="1"/>
-<wire x1="75.25" y1="26.67" x2="75.504" y2="26.416" width="0.1524" layer="1"/>
+<wire x1="77.404" y1="26.416" x2="71.97" y2="26.67" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
 <contactref element="R18" pad="1"/>
