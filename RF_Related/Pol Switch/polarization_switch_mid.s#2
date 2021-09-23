@@ -12063,9 +12063,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="LED1" library="APT2012LZGCK" library_urn="urn:adsk.eagle:library:16010043" deviceset="APT2012LZGCK" device="" package3d_urn="urn:adsk.eagle:package:16010046/3"/>
 <part name="LED2" library="APT2012LZGCK" library_urn="urn:adsk.eagle:library:16010043" deviceset="APT2012LZGCK" device="" package3d_urn="urn:adsk.eagle:package:16010046/3"/>
-<part name="X5" library="sma-flange_375mils" library_urn="urn:adsk.eagle:library:16061191" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:16061197/5" override_package3d_urn="urn:adsk.eagle:package:16061197/11" override_package_urn="urn:adsk.eagle:footprint:16061196/4"/>
-<part name="X4" library="sma-flange_375mils" library_urn="urn:adsk.eagle:library:16061191" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:16061197/5" override_package3d_urn="urn:adsk.eagle:package:16061197/12" override_package_urn="urn:adsk.eagle:footprint:16061196/4"/>
-<part name="X3" library="sma-flange_375mils" library_urn="urn:adsk.eagle:library:16061191" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:16061197/5" override_package3d_urn="urn:adsk.eagle:package:16061197/13" override_package_urn="urn:adsk.eagle:footprint:16061196/4"/>
+<part name="X5" library="sma-flange_375mils" library_urn="urn:adsk.eagle:library:16061191" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:16061197/5"/>
+<part name="X4" library="sma-flange_375mils" library_urn="urn:adsk.eagle:library:16061191" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:16061197/5"/>
+<part name="X3" library="sma-flange_375mils" library_urn="urn:adsk.eagle:library:16061191" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:16061197/5"/>
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3225M" package3d_urn="urn:adsk.eagle:package:23477/2" value="15e-6"/>
 <part name="L2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3225M" package3d_urn="urn:adsk.eagle:package:23477/2" value="15e-6"/>
 <part name="J1" library="M20-9730645" library_urn="urn:adsk.eagle:library:18976713" deviceset="M20-9730645" device="" package3d_urn="urn:adsk.eagle:package:18976716/2"/>

@@ -9047,9 +9047,9 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-783.pdf"&gt; Datasheet &lt;/
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="IC1" library="SN74LVC2G17DBVT" library_urn="urn:adsk.eagle:library:15846053" deviceset="SN74LVC2G17DBVT" device="" package3d_urn="urn:adsk.eagle:package:15846056/3"/>
-<part name="X1" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23501321/2" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
-<part name="X2" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23501321/2" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
-<part name="X3" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23501321/2" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
+<part name="X1" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23501321/4" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
+<part name="X2" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23501321/5" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
+<part name="X3" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23501321/3" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
 </parts>
 <sheets>
 <sheet>
