@@ -12010,11 +12010,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D
 <part name="SUPPLY38" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10e-6"/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1e-9"/>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10e-6"/>
-<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1e-9"/>
 <part name="SUPPLY39" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY40" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY41" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="IC13" library="MAX8878EUK28+T" library_urn="urn:adsk.eagle:library:15846043" deviceset="MAX8878EUK28+T" device="" package3d_urn="urn:adsk.eagle:package:15846046/3"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1e-6"/>
 <part name="SUPPLY42" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -12063,9 +12060,9 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="LED1" library="APT2012LZGCK" library_urn="urn:adsk.eagle:library:16010043" deviceset="APT2012LZGCK" device="" package3d_urn="urn:adsk.eagle:package:16010046/3"/>
 <part name="LED2" library="APT2012LZGCK" library_urn="urn:adsk.eagle:library:16010043" deviceset="APT2012LZGCK" device="" package3d_urn="urn:adsk.eagle:package:16010046/3"/>
-<part name="X5" library="sma-flange_375mils" library_urn="urn:adsk.eagle:library:16061191" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:16061197/5"/>
-<part name="X4" library="sma-flange_375mils" library_urn="urn:adsk.eagle:library:16061191" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:16061197/5"/>
-<part name="X3" library="sma-flange_375mils" library_urn="urn:adsk.eagle:library:16061191" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:16061197/5"/>
+<part name="X1" library="sma-flange_375mils" library_urn="urn:adsk.eagle:library:16061191" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:16061197/5" override_package3d_urn="urn:adsk.eagle:package:16061197/11" override_package_urn="urn:adsk.eagle:footprint:16061196/4"/>
+<part name="X3" library="sma-flange_375mils" library_urn="urn:adsk.eagle:library:16061191" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:16061197/5" override_package3d_urn="urn:adsk.eagle:package:16061197/12" override_package_urn="urn:adsk.eagle:footprint:16061196/4"/>
+<part name="X2" library="sma-flange_375mils" library_urn="urn:adsk.eagle:library:16061191" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:16061197/5" override_package3d_urn="urn:adsk.eagle:package:16061197/13" override_package_urn="urn:adsk.eagle:footprint:16061196/4"/>
 <part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3225M" package3d_urn="urn:adsk.eagle:package:23477/2" value="15e-6"/>
 <part name="L2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-US" device="L3225M" package3d_urn="urn:adsk.eagle:package:23477/2" value="15e-6"/>
 <part name="J1" library="M20-9730645" library_urn="urn:adsk.eagle:library:18976713" deviceset="M20-9730645" device="" package3d_urn="urn:adsk.eagle:package:18976716/2"/>
@@ -12074,6 +12071,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D
 <part name="IC4" library="VLPR-24-858-2" library_urn="urn:adsk.eagle:library:18976709" deviceset="VLPR-24-858-2" device="" package3d_urn="urn:adsk.eagle:package:18976693/3"/>
 <part name="J2" library="171856-0002" library_urn="urn:adsk.eagle:library:15846058" deviceset="171856-0002" device="" package3d_urn="urn:adsk.eagle:package:15846062/3"/>
 <part name="LED3" library="APT2012LVBC_D" deviceset="APT2012LVBC_D" device=""/>
+<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:23540/2" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -12237,22 +12235,11 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D
 <attribute name="NAME" x="346.075" y="189.484" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="341.249" y="189.484" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="C13" gate="G$1" x="350.52" y="109.22" smashed="yes" rot="R270">
-<attribute name="NAME" x="351.155" y="108.204" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="346.329" y="108.204" size="1.778" layer="96" rot="R270"/>
-</instance>
-<instance part="C14" gate="G$1" x="350.52" y="121.92" smashed="yes" rot="R270">
-<attribute name="NAME" x="351.155" y="120.904" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="346.329" y="120.904" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="SUPPLY39" gate="GND" x="25.4" y="187.96" smashed="yes" rot="R180">
 <attribute name="VALUE" x="27.305" y="191.135" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY40" gate="GND" x="355.6" y="175.26" smashed="yes">
 <attribute name="VALUE" x="353.695" y="172.085" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY41" gate="GND" x="360.68" y="106.68" smashed="yes">
-<attribute name="VALUE" x="358.775" y="103.505" size="1.778" layer="96"/>
 </instance>
 <instance part="IC13" gate="G$1" x="63.5" y="185.42" smashed="yes">
 <attribute name="NAME" x="72.39" y="193.04" size="1.778" layer="95" align="center-left"/>
@@ -12427,15 +12414,15 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D
 <attribute name="NAME" x="201.93" y="230.886" size="1.778" layer="95"/>
 <attribute name="VALUE" x="201.93" y="233.172" size="1.778" layer="96"/>
 </instance>
-<instance part="X5" gate="G1" x="10.16" y="119.38" smashed="yes">
+<instance part="X1" gate="G1" x="10.16" y="119.38" smashed="yes">
 <attribute name="VALUE" x="7.62" y="114.3" size="1.778" layer="96"/>
 <attribute name="NAME" x="7.62" y="122.682" size="1.778" layer="95"/>
 </instance>
-<instance part="X4" gate="G1" x="416.56" y="68.58" smashed="yes" rot="R180">
+<instance part="X3" gate="G1" x="416.56" y="68.58" smashed="yes" rot="R180">
 <attribute name="VALUE" x="419.1" y="73.66" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="419.1" y="65.278" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X3" gate="G1" x="419.1" y="137.16" smashed="yes" rot="R180">
+<instance part="X2" gate="G1" x="419.1" y="137.16" smashed="yes" rot="R180">
 <attribute name="VALUE" x="421.64" y="142.24" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="421.64" y="133.858" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -12470,6 +12457,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D
 <instance part="LED3" gate="G$1" x="124.46" y="233.68" smashed="yes">
 <attribute name="NAME" x="137.16" y="242.57" size="1.778" layer="95"/>
 <attribute name="VALUE" x="137.16" y="240.03" size="1.778" layer="96"/>
+</instance>
+<instance part="R4" gate="G$1" x="101.6" y="93.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="100.1014" y="90.17" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="104.902" y="90.17" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -12598,16 +12589,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D
 <junction x="353.06" y="177.8"/>
 </segment>
 <segment>
-<pinref part="C13" gate="G$1" pin="1"/>
-<pinref part="SUPPLY41" gate="GND" pin="GND"/>
-<wire x1="353.06" y1="109.22" x2="355.6" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="1"/>
-<wire x1="355.6" y1="109.22" x2="360.68" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="121.92" x2="355.6" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="355.6" y1="121.92" x2="355.6" y2="109.22" width="0.1524" layer="91"/>
-<junction x="355.6" y="109.22"/>
-</segment>
-<segment>
 <pinref part="SUPPLY42" gate="GND" pin="GND"/>
 <pinref part="C15" gate="G$1" pin="2"/>
 </segment>
@@ -12724,15 +12705,15 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D
 </segment>
 <segment>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
-<pinref part="X5" gate="G1" pin="2"/>
+<pinref part="X1" gate="G1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
-<pinref part="X4" gate="G1" pin="2"/>
+<pinref part="X3" gate="G1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
-<pinref part="X3" gate="G1" pin="2"/>
+<pinref part="X2" gate="G1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY46" gate="GND" pin="GND"/>
@@ -12753,7 +12734,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D
 <segment>
 <wire x1="12.7" y1="119.38" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="RFCOM"/>
-<pinref part="X5" gate="G1" pin="1"/>
+<pinref part="X1" gate="G1" pin="1"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -12791,17 +12772,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D
 <wire x1="55.88" y1="121.92" x2="55.88" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="RFCOM"/>
 <wire x1="55.88" y1="71.12" x2="71.12" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="IC5" gate="G$1" pin="RF1"/>
-<wire x1="91.44" y1="68.58" x2="154.94" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="68.58" x2="154.94" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="152.4" x2="327.66" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="IC11" gate="G$1" pin="PORT_1"/>
-<wire x1="327.66" y1="152.4" x2="327.66" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="142.24" x2="317.5" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
@@ -12886,7 +12856,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D
 <wire x1="414.02" y1="144.78" x2="401.32" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="144.78" x2="401.32" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="137.16" x2="416.56" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="X3" gate="G1" pin="1"/>
+<pinref part="X2" gate="G1" pin="1"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -12908,7 +12878,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D
 <wire x1="414.02" y1="81.28" x2="401.32" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="81.28" x2="401.32" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="68.58" x2="414.02" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="X4" gate="G1" pin="1"/>
+<pinref part="X3" gate="G1" pin="1"/>
 </segment>
 </net>
 <net name="N$32" class="0">
@@ -12917,14 +12887,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="129.54" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="129.54" x2="66.04" y2="127" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="IC6" gate="G$1" pin="RF1"/>
-<wire x1="187.96" y1="129.54" x2="200.66" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="IC11" gate="G$1" pin="PORT_2"/>
-<wire x1="200.66" y1="129.54" x2="200.66" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -13013,15 +12975,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D
 <wire x1="320.04" y1="154.94" x2="332.74" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="154.94" x2="332.74" y2="121.92" width="0.1524" layer="91"/>
 <junction x="320.04" y="154.94"/>
-<pinref part="C14" gate="G$1" pin="2"/>
-<wire x1="337.82" y1="101.6" x2="337.82" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="2"/>
-<wire x1="345.44" y1="109.22" x2="337.82" y2="109.22" width="0.1524" layer="91"/>
-<junction x="337.82" y="109.22"/>
-<wire x1="337.82" y1="109.22" x2="337.82" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="121.92" x2="345.44" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="101.6" x2="337.82" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="332.74" y1="121.92" x2="337.82" y2="121.92" width="0.1524" layer="91"/>
-<junction x="337.82" y="121.92"/>
 <wire x1="25.4" y1="180.34" x2="35.56" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="IC13" gate="G$1" pin="IN"/>
 <pinref part="IC13" gate="G$1" pin="SHDN"/>
@@ -13264,26 +13219,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D
 <junction x="279.4" y="175.26"/>
 </segment>
 </net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="IC7" gate="G$1" pin="RF1"/>
-<wire x1="187.96" y1="99.06" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="99.06" x2="195.58" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="G$1" pin="PORT_2"/>
-<wire x1="195.58" y1="68.58" x2="203.2" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="IC5" gate="G$1" pin="RF2"/>
-<wire x1="91.44" y1="73.66" x2="190.5" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="73.66" x2="190.5" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="88.9" x2="327.66" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="88.9" x2="327.66" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="G$1" pin="PORT_1"/>
-<wire x1="327.66" y1="73.66" x2="320.04" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="IC12" gate="G$1" pin="PORT_1_(0°)"/>
@@ -13291,6 +13226,50 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D
 <wire x1="142.24" y1="134.62" x2="142.24" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="IC7" gate="G$1" pin="RFCOM"/>
 <wire x1="142.24" y1="101.6" x2="167.64" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="IC11" gate="G$1" pin="PORT_2"/>
+<wire x1="101.6" y1="106.68" x2="200.66" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="106.68" x2="200.66" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="99.06" x2="101.6" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="RF2"/>
+<wire x1="91.44" y1="73.66" x2="193.04" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="IC10" gate="G$1" pin="PORT_2"/>
+<wire x1="193.04" y1="73.66" x2="193.04" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="68.58" x2="203.2" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="RF1"/>
+<wire x1="187.96" y1="99.06" x2="327.66" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="IC10" gate="G$1" pin="PORT_1"/>
+<wire x1="327.66" y1="99.06" x2="327.66" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="73.66" x2="320.04" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="IC11" gate="G$1" pin="PORT_1"/>
+<wire x1="317.5" y1="142.24" x2="322.58" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="G$1" pin="RF1"/>
+<wire x1="187.96" y1="129.54" x2="322.58" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="129.54" x2="322.58" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="RF1"/>
+<wire x1="101.6" y1="68.58" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="68.58" x2="101.6" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
