@@ -25,7 +25,7 @@
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="14" fill="1" visible="no" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
@@ -9004,6 +9004,265 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-783.pdf"&gt; Datasheet &lt;/
 </deviceset>
 </devicesets>
 </library>
+<library name="APT2012LVBC_D">
+<description>&lt;Standard LEDs - SMD 2.0X1.2MM LOW CRNT&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="LEDC2012X85N">
+<description>&lt;b&gt;APT2012&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.95" y="0" dx="1.4" dy="0.9" layer="1" rot="R90"/>
+<smd name="2" x="0.95" y="0" dx="1.4" dy="0.9" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.85" y1="1.15" x2="1.85" y2="1.15" width="0.05" layer="51"/>
+<wire x1="1.85" y1="1.15" x2="1.85" y2="-1.15" width="0.05" layer="51"/>
+<wire x1="1.85" y1="-1.15" x2="-1.85" y2="-1.15" width="0.05" layer="51"/>
+<wire x1="-1.85" y1="-1.15" x2="-1.85" y2="1.15" width="0.05" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="0.208" x2="-0.583" y2="0.625" width="0.1" layer="51"/>
+<wire x1="0.95" y1="1.05" x2="-1.75" y2="1.05" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="1.05" x2="-1.75" y2="-1.05" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="-1.05" x2="0.95" y2="-1.05" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="APT2012LVBC_D">
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="2.54" x2="3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="8.89" y1="2.54" x2="6.35" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
+<text x="12.7" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="12.7" y="6.35" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="K" x="0" y="0" visible="pad" length="short"/>
+<pin name="A" x="15.24" y="0" visible="pad" length="short" rot="R180"/>
+<polygon width="0.254" layer="94">
+<vertex x="5.08" y="0"/>
+<vertex x="10.16" y="2.54"/>
+<vertex x="10.16" y="-2.54"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="5.334" y="4.318"/>
+<vertex x="4.572" y="3.556"/>
+<vertex x="3.81" y="5.08"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="7.874" y="4.318"/>
+<vertex x="7.112" y="3.556"/>
+<vertex x="6.35" y="5.08"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="APT2012LVBC_D" prefix="LED">
+<description>&lt;b&gt;Standard LEDs - SMD 2.0X1.2MM LOW CRNT&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/APT2012LVBC_D.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="APT2012LVBC_D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LEDC2012X85N">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="APT2012LVBC/D" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/apt2012lvbcd/kingbright" constant="no"/>
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 2.0X1.2MM LOW CRNT" constant="no"/>
+<attribute name="HEIGHT" value="0.85mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT2012LVBC/D" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT2012LVBCD" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Kingbright/APT2012LVBC-D?qs=6oMev5NRZMGErJYT6KZLXg%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="APT2012LZGCK" urn="urn:adsk.eagle:library:16010043">
+<description>&lt;Standard LEDs - SMD 2.0X1.2MM LOW CRNT&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="LEDC2012X85N" urn="urn:adsk.eagle:footprint:16010044/2" library_version="2">
+<description>&lt;b&gt;APT2012LZGCK&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.95" y="0" dx="1.4" dy="0.9" layer="1" rot="R90"/>
+<smd name="2" x="0.95" y="0" dx="1.4" dy="0.9" layer="1" rot="R90"/>
+<text x="-0.285628125" y="3.81" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="2.54" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.85" y1="1.15" x2="1.85" y2="1.15" width="0.05" layer="51"/>
+<wire x1="1.85" y1="1.15" x2="1.85" y2="-1.15" width="0.05" layer="51"/>
+<wire x1="1.85" y1="-1.15" x2="-1.85" y2="-1.15" width="0.05" layer="51"/>
+<wire x1="-1.85" y1="-1.15" x2="-1.85" y2="1.15" width="0.05" layer="51"/>
+<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.1" layer="51"/>
+<wire x1="-1" y1="0.208" x2="-0.583" y2="0.625" width="0.1" layer="51"/>
+<wire x1="0.95" y1="1.05" x2="-1.75" y2="1.05" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="1.05" x2="-1.75" y2="-1.05" width="0.2" layer="21"/>
+<wire x1="-1.75" y1="-1.05" x2="0.95" y2="-1.05" width="0.2" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="LEDC2012X85N" urn="urn:adsk.eagle:package:16010046/3" type="model" library_version="2">
+<description>&lt;b&gt;APT2012LZGCK&lt;/b&gt;&lt;br&gt;
+</description>
+<packageinstances>
+<packageinstance name="LEDC2012X85N"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="APT2012LZGCK" urn="urn:adsk.eagle:symbol:16010045/1" library_version="2">
+<wire x1="5.08" y1="0" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="2.54" x2="3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="8.89" y1="2.54" x2="6.35" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
+<text x="12.7" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="12.7" y="6.35" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="K" x="0" y="0" length="short"/>
+<pin name="A" x="15.24" y="0" length="short" rot="R180"/>
+<polygon width="0.254" layer="94">
+<vertex x="5.334" y="4.318"/>
+<vertex x="4.572" y="3.556"/>
+<vertex x="3.81" y="5.08"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="7.874" y="4.318"/>
+<vertex x="7.112" y="3.556"/>
+<vertex x="6.35" y="5.08"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="APT2012LZGCK" urn="urn:adsk.eagle:component:16010047/2" prefix="LED" library_version="2">
+<description>&lt;b&gt;Standard LEDs - SMD 2.0X1.2MM LOW CRNT&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.kingbrightusa.com/images/catalog/SPEC/APT2012LZGCK.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="APT2012LZGCK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LEDC2012X85N">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16010046/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ALLIED_NUMBER" value="71056205" constant="no"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/kingbright-apt2012lzgck/71056205/" constant="no"/>
+<attribute name="DESCRIPTION" value="Standard LEDs - SMD 2.0X1.2MM LOW CRNT" constant="no"/>
+<attribute name="HEIGHT" value="0.85mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Kingbright" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="APT2012LZGCK" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="604-APT2012LZGCK" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=604-APT2012LZGCK" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="VLPR-24-858-2" urn="urn:adsk.eagle:library:18976709">
+<description>&lt;LED Light Pipes Light Pipe Vert SMD Rect Face&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="VLPR248582" urn="urn:adsk.eagle:footprint:18976694/2" library_version="3">
+<description>&lt;b&gt;VLPR-24-858-2-1&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.5" diameter="2.25"/>
+<pad name="2" x="0" y="4.7" drill="1.5" diameter="2.25"/>
+<text x="6.064371875" y="4.89" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="6.35" y="3.62" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2" y1="5.6" x2="2" y2="5.6" width="0.2" layer="51"/>
+<wire x1="2" y1="5.6" x2="2" y2="-0.9" width="0.2" layer="51"/>
+<wire x1="2" y1="-0.9" x2="-2" y2="-0.9" width="0.2" layer="51"/>
+<wire x1="-2" y1="-0.9" x2="-2" y2="5.6" width="0.2" layer="51"/>
+<wire x1="-3" y1="6.882" x2="3" y2="6.882" width="0.1" layer="51"/>
+<wire x1="3" y1="6.882" x2="3" y2="-2.182" width="0.1" layer="51"/>
+<wire x1="3" y1="-2.182" x2="-3" y2="-2.182" width="0.1" layer="51"/>
+<wire x1="-3" y1="-2.182" x2="-3" y2="6.882" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="5.6" x2="-2" y2="5.6" width="0.1" layer="21"/>
+<wire x1="-2" y1="5.6" x2="-2" y2="-0.9" width="0.1" layer="21"/>
+<wire x1="-2" y1="-0.9" x2="-1.2" y2="-0.9" width="0.1" layer="21"/>
+<wire x1="1.2" y1="5.6" x2="2" y2="5.6" width="0.1" layer="21"/>
+<wire x1="2" y1="5.6" x2="2" y2="-0.45" width="0.1" layer="21"/>
+<wire x1="1.2" y1="-0.9" x2="2" y2="-0.9" width="0.1" layer="21"/>
+<wire x1="2" y1="-0.9" x2="2" y2="-0.05" width="0.1" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="VLPR248582" urn="urn:adsk.eagle:package:18976693/3" type="model" library_version="3">
+<description>&lt;b&gt;VLPR-24-858-2-1&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="VLPR248582"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="VLPR-24-858-2" urn="urn:adsk.eagle:symbol:18976710/1" library_version="3">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="-2.54" length="middle"/>
+<pin name="2" x="0" y="0" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="VLPR-24-858-2" urn="urn:adsk.eagle:component:18976711/2" prefix="IC" library_version="3">
+<description>&lt;b&gt;LED Light Pipes Light Pipe Vert SMD Rect Face&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://uk.rs-online.com/web/p/products/9063748"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="VLPR-24-858-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VLPR248582">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:18976693/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="LED Light Pipes Light Pipe Vert SMD Rect Face" constant="no"/>
+<attribute name="HEIGHT" value="21mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Bivar" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="VLPR-24-858-2" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="9063748" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/9063748" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9047,9 +9306,21 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-783.pdf"&gt; Datasheet &lt;/
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="IC1" library="SN74LVC2G17DBVT" library_urn="urn:adsk.eagle:library:15846053" deviceset="SN74LVC2G17DBVT" device="" package3d_urn="urn:adsk.eagle:package:15846056/3"/>
-<part name="X1" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23501321/2" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
-<part name="X2" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23501321/2" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
-<part name="X3" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23501321/2" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
+<part name="X2" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23501321/4" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
+<part name="X3" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23501321/5" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
+<part name="X1" library="con-coax" library_urn="urn:adsk.eagle:library:133" deviceset="SMA-" device="142-0701-801/806" package3d_urn="urn:adsk.eagle:package:6214/1" override_package3d_urn="urn:adsk.eagle:package:23501321/3" override_package_urn="urn:adsk.eagle:footprint:6186/1"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="430"/>
+<part name="LED1" library="APT2012LVBC_D" deviceset="APT2012LVBC_D" device="" override_package3d_urn="urn:adsk.eagle:package:33322537/2" override_package_urn="urn:adsk.eagle:footprint:33322538/1"/>
+<part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="LED3" library="APT2012LZGCK" library_urn="urn:adsk.eagle:library:16010043" deviceset="APT2012LZGCK" device="" package3d_urn="urn:adsk.eagle:package:16010046/3" override_package3d_urn="urn:adsk.eagle:package:33322540/2" override_package_urn="urn:adsk.eagle:footprint:16010044/2"/>
+<part name="LED2" library="APT2012LZGCK" library_urn="urn:adsk.eagle:library:16010043" deviceset="APT2012LZGCK" device="" package3d_urn="urn:adsk.eagle:package:16010046/3" override_package3d_urn="urn:adsk.eagle:package:33322541/2" override_package_urn="urn:adsk.eagle:footprint:16010044/2"/>
+<part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="430"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="430"/>
+<part name="IC3" library="VLPR-24-858-2" library_urn="urn:adsk.eagle:library:18976709" deviceset="VLPR-24-858-2" device="" package3d_urn="urn:adsk.eagle:package:18976693/3"/>
+<part name="IC5" library="VLPR-24-858-2" library_urn="urn:adsk.eagle:library:18976709" deviceset="VLPR-24-858-2" device="" package3d_urn="urn:adsk.eagle:package:18976693/3"/>
+<part name="IC6" library="VLPR-24-858-2" library_urn="urn:adsk.eagle:library:18976709" deviceset="VLPR-24-858-2" device="" package3d_urn="urn:adsk.eagle:package:18976693/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -9174,17 +9445,62 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-783.pdf"&gt; Datasheet &lt;/
 <attribute name="NAME" x="142.24" y="102.87" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="142.24" y="100.33" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="X1" gate="G1" x="181.61" y="62.23" smashed="yes" rot="R180">
+<instance part="X2" gate="G1" x="181.61" y="62.23" smashed="yes" rot="R180">
 <attribute name="VALUE" x="184.15" y="67.31" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="184.15" y="58.928" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="X2" gate="G1" x="123.19" y="31.75" smashed="yes" rot="R90">
+<instance part="X3" gate="G1" x="123.19" y="31.75" smashed="yes" rot="R90">
 <attribute name="VALUE" x="128.27" y="29.21" size="1.778" layer="96" rot="R90"/>
 <attribute name="NAME" x="119.888" y="29.21" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="X3" gate="G1" x="41.91" y="59.69" smashed="yes">
+<instance part="X1" gate="G1" x="41.91" y="59.69" smashed="yes">
 <attribute name="VALUE" x="39.37" y="54.61" size="1.778" layer="96"/>
 <attribute name="NAME" x="39.37" y="62.992" size="1.778" layer="95"/>
+</instance>
+<instance part="R7" gate="G$1" x="67.31" y="100.33" smashed="yes" rot="R90">
+<attribute name="NAME" x="65.8114" y="96.52" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="70.612" y="96.52" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LED1" gate="G$1" x="66.04" y="121.92" smashed="yes" rot="R270">
+<attribute name="NAME" x="74.93" y="109.22" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="72.39" y="109.22" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY16" gate="GND" x="64.77" y="125.73" smashed="yes" rot="R180">
+<attribute name="VALUE" x="66.675" y="128.905" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="LED3" gate="G$1" x="83.82" y="152.4" smashed="yes">
+<attribute name="NAME" x="86.36" y="161.29" size="1.778" layer="95"/>
+<attribute name="VALUE" x="86.36" y="158.75" size="1.778" layer="96"/>
+</instance>
+<instance part="LED2" gate="G$1" x="83.82" y="144.78" smashed="yes">
+<attribute name="NAME" x="86.36" y="140.97" size="1.778" layer="95"/>
+<attribute name="VALUE" x="86.36" y="138.43" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY17" gate="GND" x="77.47" y="153.67" smashed="yes" rot="R270">
+<attribute name="VALUE" x="74.295" y="155.575" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="SUPPLY18" gate="GND" x="77.47" y="146.05" smashed="yes" rot="R270">
+<attribute name="VALUE" x="74.295" y="147.955" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R9" gate="G$1" x="107.95" y="151.13" smashed="yes" rot="R180">
+<attribute name="NAME" x="111.76" y="149.6314" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="111.76" y="154.432" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="R8" gate="G$1" x="107.95" y="143.51" smashed="yes" rot="R180">
+<attribute name="NAME" x="111.76" y="142.0114" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="111.76" y="146.812" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="IC3" gate="G$1" x="5.08" y="35.56" smashed="yes">
+<attribute name="NAME" x="21.59" y="43.18" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="21.59" y="40.64" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC5" gate="G$1" x="5.08" y="27.94" smashed="yes">
+<attribute name="NAME" x="21.59" y="35.56" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="21.59" y="33.02" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="IC6" gate="G$1" x="5.08" y="20.32" smashed="yes">
+<attribute name="NAME" x="21.59" y="27.94" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="21.59" y="25.4" size="1.778" layer="96" align="center-left"/>
 </instance>
 </instances>
 <busses>
@@ -9272,16 +9588,34 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-783.pdf"&gt; Datasheet &lt;/
 <wire x1="120.65" y1="57.15" x2="128.27" y2="57.15" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="X1" gate="G1" pin="2"/>
+<pinref part="X2" gate="G1" pin="2"/>
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X2" gate="G1" pin="2"/>
+<pinref part="X3" gate="G1" pin="2"/>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="X3" gate="G1" pin="2"/>
+<pinref part="X1" gate="G1" pin="2"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="K"/>
+<pinref part="SUPPLY16" gate="GND" pin="GND"/>
+<wire x1="66.04" y1="121.92" x2="64.77" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="64.77" y1="121.92" x2="64.77" y2="123.19" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY18" gate="GND" pin="GND"/>
+<pinref part="LED2" gate="G$1" pin="K"/>
+<wire x1="80.01" y1="146.05" x2="83.82" y2="146.05" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="146.05" x2="83.82" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY17" gate="GND" pin="GND"/>
+<pinref part="LED3" gate="G$1" pin="K"/>
+<wire x1="80.01" y1="153.67" x2="83.82" y2="153.67" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="153.67" x2="83.82" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9301,6 +9635,9 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-783.pdf"&gt; Datasheet &lt;/
 <wire x1="138.43" y1="130.81" x2="138.43" y2="120.65" width="0.1524" layer="91"/>
 <junction x="138.43" y="120.65"/>
 <pinref part="IC1" gate="G$1" pin="2A"/>
+<wire x1="113.03" y1="151.13" x2="138.43" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="138.43" y1="151.13" x2="138.43" y2="120.65" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -9320,6 +9657,10 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-783.pdf"&gt; Datasheet &lt;/
 <wire x1="161.29" y1="110.49" x2="130.81" y2="110.49" width="0.1524" layer="91"/>
 <junction x="130.81" y="110.49"/>
 <pinref part="IC1" gate="G$1" pin="1A"/>
+<wire x1="113.03" y1="143.51" x2="158.75" y2="143.51" width="0.1524" layer="91"/>
+<wire x1="158.75" y1="143.51" x2="158.75" y2="120.65" width="0.1524" layer="91"/>
+<junction x="158.75" y="120.65"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -9385,7 +9726,7 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-783.pdf"&gt; Datasheet &lt;/
 <wire x1="90.17" y1="59.69" x2="90.17" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="90.17" y1="69.85" x2="100.33" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="44.45" y1="59.69" x2="90.17" y2="59.69" width="0.1524" layer="91"/>
-<pinref part="X3" gate="G1" pin="1"/>
+<pinref part="X1" gate="G1" pin="1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -9395,7 +9736,7 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-783.pdf"&gt; Datasheet &lt;/
 <wire x1="95.25" y1="64.77" x2="95.25" y2="44.45" width="0.1524" layer="91"/>
 <wire x1="95.25" y1="44.45" x2="148.59" y2="44.45" width="0.1524" layer="91"/>
 <wire x1="148.59" y1="44.45" x2="148.59" y2="62.23" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G1" pin="1"/>
+<pinref part="X2" gate="G1" pin="1"/>
 <wire x1="179.07" y1="62.23" x2="148.59" y2="62.23" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9404,7 +9745,7 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-783.pdf"&gt; Datasheet &lt;/
 <pinref part="IC2" gate="G$1" pin="RFCOM"/>
 <wire x1="120.65" y1="67.31" x2="123.19" y2="67.31" width="0.1524" layer="91"/>
 <wire x1="123.19" y1="34.29" x2="123.19" y2="67.31" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G1" pin="1"/>
+<pinref part="X3" gate="G1" pin="1"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -9438,6 +9779,9 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-783.pdf"&gt; Datasheet &lt;/
 <wire x1="77.47" y1="113.03" x2="95.25" y2="113.03" width="0.1524" layer="91"/>
 <junction x="95.25" y="113.03"/>
 <pinref part="IC1" gate="G$1" pin="VCC"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="57.15" y1="87.63" x2="67.31" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="67.31" y1="87.63" x2="67.31" y2="95.25" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -9447,6 +9791,30 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-783.pdf"&gt; Datasheet &lt;/
 <pinref part="IC4" gate="G$1" pin="OUT"/>
 <wire x1="62.23" y1="80.01" x2="62.23" y2="90.17" width="0.1524" layer="91"/>
 <wire x1="62.23" y1="90.17" x2="57.15" y2="90.17" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="67.31" y1="105.41" x2="66.04" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="105.41" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<wire x1="99.06" y1="152.4" x2="99.06" y2="151.13" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="151.13" x2="102.87" y2="151.13" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="99.06" y1="144.78" x2="99.06" y2="143.51" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="143.51" x2="102.87" y2="143.51" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
