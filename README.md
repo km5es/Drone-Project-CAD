@@ -70,7 +70,7 @@ Two switches have been designed:
 
 There is also a dual-pol vertically oriented balun included in this repository. 
 
-<img src="./RF_Related/Balun/balun_assy v25.gif" width=600 align=right>
+<img src="./RF_Related/Balun/balun_assy v25.gif" width=550 align=right>
 <img src="./RF_Related/balun-vertical_1.png" width=250 align=right>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br>
