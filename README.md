@@ -8,7 +8,7 @@ Two drones have been developed, one with a Flamewheel F450 frame and one with a 
 ## Flamewheel F450
 
 A scaled down drone for experimentation and testing. This was used for testing the custom ROS nodes, RTK performance, and new versions of the flight stack. This was also used to evaluate potential features and upgrades such as RPM-based gyro filtering, and system model verification.
-<img src="f450_flying_render.gif" width=640 align=right>
+<img src="f450_flying_render.gif" width=580 align=right>
 
 ### Drone 
 * Flamewheel F450 frame,
