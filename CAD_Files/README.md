@@ -1,5 +1,5 @@
 ## CAD files
-This folder contains STL, dwg, and AutoCAD files for custom mounting components to the T960. Custom mounting components for the F450 can be found in the [F450](/CAD_Files/F450) folder.
+Everything needed to build the mechanical components for both drones will be found here. Nearly all files herein are using some version of Autodesk software. 
 
-Fusion360 models of the F450 are [here](/CAD_Files/F450) and for the T960 are [here](/CAD_Files/PRIAM).
+The parent [F450](/CAD_Files/F450) and [PRIAM](/CAD_Files/PRIAM/) folders contain Fusion360 models which in turn contain all of their components. In addition, the sub-folders contain Inventor and DWG models of the custom mechanical parts.
 
