@@ -70,13 +70,13 @@ Two switches have been designed:
 
 There is also a dual-pol vertically oriented balun included in this repository. 
 
-<img src="./RF_Related/balun-vertical-assembly.gif" width=500 align=right>
-<img src="./RF_Related/balun-vertical.png" width=250 align=left>
+<img src="./RF_Related/Balun/balun_assy v25.gif" width=600 align=right>
+<img src="./RF_Related/balun-vertical_1.png" width=250 align=left>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <br><br><br><br>
 
 
-Microwave Office (MWO), Eagle, and Fusion360 files of these components are included in the [RF Related](/RF_Related) folder. Details of each are in nested README files. 
+Microwave Office (MWO), Eagle, and Fusion360 files of these components are included in the [RF Related](/RF_Related) folder. Details of each are in nested `README.md` files. 
 
 >***NOTE:*** Several sub-assemblies and parts in the 3D models have been obtained from [GrabCAD](https://grabcad.com/). None of the work in this repo is towards commercialization or monetary profit. However, credit is due to the creators of those files anyway.
 
