@@ -22,13 +22,14 @@ There is also a simpler version of the switch added [here](Switch-Eval/). This i
 
 
 ## Balun
-This folder also contains 3D CAD models and Eagle PCB design files of the dual-pol balun. For now, the current balun candidate is a vertically oriented dual-pol design using two separate PCBs with a 1:1 turns ratio [transformer][trans]. The box I am considering is linked [here][balun-box]. Here is what the current design looks like:
-<img src="balun-vertical-assembly.gif" width=550 align=right>
-<img src="balun-vertical.png" width=300 align=right>
+This folder also contains 3D CAD models and Eagle PCB design files of the dual-pol balun. The balun is a vertically oriented dual-pol design using two separate PCBs with a 2:1 turns ratio [transformer][trans]. The box I am considering is linked [here][balun-box]. Here is what it looks like:
+<img src="Balun/balun_assy v25.gif" width=600 align=right>
+<img src="balun-vertical_1.png" width=250 align=right>
+
 
 
 [hammond_box_large]: https://www.hammfg.com/part/1590Z062BK?referer=526
 [hammond_box_small]: https://www.hammfg.com/part/1590Z061BK
 [switch]: https://www.minicircuits.com/WebStore/dashboard.html?model=HSWA2-30DR%2B
 [balun-box]: https://www.davantech.com/product/d1001433-electronic-project-box-52w38h80l/
-[trans]: https://www.minicircuits.com/WebStore/dashboard.html?model=ADT1-1%2B
+[trans]: https://www.minicircuits.com/WebStore/dashboard.html?model=ADT2-1T%2B
