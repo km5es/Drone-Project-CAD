@@ -1,7 +1,7 @@
 # Drone-Project-3D
 This repository contains 3D CAD models, pcb designs, and RF simulation files for a drone-based antenna calibrator entitled Precision Radio Instrument for Antenna Measurements (PRIAM). Its chief application is towards 21-cm cosmology and low-frequency radio instruments. The entire drone-based experiment is represented in the following block diagram:
 
-![](drone_experiment_complete_block_diagram.png)
+![](block_diagram_no_telem.png)
 
 Two drones have been developed, one with a Flamewheel F450 frame and one with a Tarot T960 frame.
 
