@@ -6,7 +6,7 @@ This repository contains 3D CAD models, pcb designs, and RF simulation files for
 >[!TIP]
 >* A complete [Gitbook](app.gitbook.com) guide can be found here:\
 >     https://krishnamakhija.gitbook.io/priam/
->* The repo containing the ROS and SDR code along with the flight path generator can be found [here](https://github.com/km5es/Drone-Project-CAD.git).
+>* The repo containing the ROS and SDR code along with the flight path generator can be found [here](https://github.com/km5es/Drone-Project-code.git).
 
 Two drones have been developed, one with a Flamewheel F450 frame and one with a Tarot T960 frame.
 
